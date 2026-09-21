@@ -100,8 +100,6 @@ Month 2–3     NDMI ↓
 Month 3       NDVI ↓
 ```
 
-> Angka di atas hanya ilustrasi. Kita biarkan **data menentukan lag** yang sebenarnya. Setiap wilayah akan memiliki response lag yang berbeda — inilah salah satu kontribusi utama penelitian.
-
 ---
 
 ## 3. Research Questions & Hypotheses
@@ -114,8 +112,6 @@ Month 3       NDVI ↓
 | **RQ2** | How do the magnitude and timing of land-surface responses to El Niño vary among different landscape regimes? | Deliverable B |
 | **RQ3** | Which physical and agricultural landscape characteristics explain the spatial heterogeneity of El Niño sensitivity, and how can these patterns inform geographically targeted drought preparedness? | Deliverable C & D |
 
-> RQ3 membawa riset sampai ke policy tanpa mengubah penelitian menjadi policy paper.
-
 ### Hypotheses
 
 | Kode | Hypothesis | Diuji pada Phase |
@@ -124,8 +120,6 @@ Month 3       NDVI ↓
 | **H2** | Land-surface responses exhibit heterogeneous magnitude and temporal lag relative to El Niño-related rainfall anomalies | Phase 3–6 |
 | **H3** | Topography, antecedent moisture conditions, irrigation, and land-use characteristics explain a substantial fraction of the spatial variability in landscape sensitivity | Phase 9 |
 | **H4** | Agricultural exposure modifies the policy relevance of landscape sensitivity, such that areas with similar climate sensitivity may have different implications for agricultural drought preparedness | Phase 10–11 |
-
-> H4 sangat penting untuk menjembatani **science → policy**.
 
 ---
 
@@ -221,7 +215,7 @@ Month 3       NDVI ↓
 | **Neutral** | Tahun sisanya | Baseline climatology |
 
 > [!WARNING]
-> **IOD Confounding.** Studi Java menunjukkan bahwa severity drought dipengaruhi oleh kombinasi El Niño dan positive IOD, sementara durasinya juga berkaitan kuat dengan IOD. Kita **harus** memisahkan dan/atau mengontrol efek IOD.
+> **IOD Confounding.** Studi Java menunjukkan bahwa severity drought dipengaruhi oleh kombinasi El Niño dan positive IOD, sementara durasinya juga berkaitan kuat dengan IOD. Sehingga **perlu** memisahkan dan/atau mengontrol efek IOD.
 
 ---
 
@@ -480,7 +474,7 @@ graph LR
 
 ### 10.2 Sensitivity Analysis
 
-Kita harus menguji apakah hasil berubah drastis jika:
+Bagian ini menguji apakah hasil berubah drastis jika:
 
 | Test | Comparison | Priority |
 |------|-----------|----------|
@@ -498,8 +492,7 @@ Kita harus menguji apakah hasil berubah drastis jika:
 ### 11.1 Prinsip
 
 > [!CAUTION]
-> **Bukan:** "Kabupaten X harus melakukan Y."
-> **Melainkan:** Membangun **decision-support framework** yang menjawab: *Where should limited attention/resources be prioritized?*
+> Membangun **decision-support framework** yang menjawab: *Where should limited attention/resources be prioritized?*
 
 ### 11.2 Response Regime to Policy Information
 
@@ -527,22 +520,10 @@ Our framework: Expected rainfall anomaly
          Priority zones
 ```
 
-Bukan sekadar: *"El Nino diperkirakan terjadi."*
-Melainkan: *"Given the same climate forcing, these landscape types historically respond faster and more strongly."*
-
-### 11.4 Risk Framework (Academic Guardrail)
+### 11.4 Risk Framework
 
 > [!WARNING]
-> Jangan langsung menyebut hasil sebagai "risk". Kita memiliki:
-> - **Hazard / forcing:** El Nino-related climate anomaly
-> - **Sensitivity:** Landscape response
-> - **Exposure:** Agricultural land / rice
->
-> **Vulnerability** memerlukan **adaptive capacity** (irrigation access, water infrastructure, cropping flexibility, historical cropping patterns).
->
-> Baru kemudian: `Risk ~ Hazard x Exposure x Vulnerability`
->
-> **Bukan:** NDVI rendah = risk tinggi.
+> Risk Framework: `Risk ~ Hazard x Exposure x Vulnerability`
 
 ---
 
@@ -550,22 +531,12 @@ Melainkan: *"Given the same climate forcing, these landscape types historically 
 
 ### 12.1 Novelty Claim
 
-> [!CAUTION]
-> Jangan klaim: "first spatial analysis of ENSO in East Java"
->
-> Klaim yang aman dan kuat: "We move from regionalizing ENSO-related rainfall anomalies toward characterizing the spatial sensitivity and temporal response of heterogeneous land-surface and agricultural systems to ENSO forcing."
+> [!NOVELTY]
+> "We move from regionalizing ENSO-related rainfall anomalies toward characterizing the spatial sensitivity and temporal response of heterogeneous land-surface and agricultural systems to ENSO forcing."
 
-### 12.2 ML as Tool, Not Goal
+### 12.2 ML as Tool
 
-Machine learning (clustering) **bukan tujuan penelitian**. ML hanya alat untuk menemukan **response regimes**. Gunakan interpretable methods (k-means, hierarchical, GMM, SOM). Deep learning tidak diperlukan.
-
-### 12.3 Regime Naming
-
-Nama regime diberikan **setelah** hasil keluar, bukan ditentukan sebelumnya.
-
-### 12.4 Forcing-Response Separation
-
-Jangan mencampurkan forcing variables (ONI, DMI) dengan response variables (P, SM, LST, NDVI) menjadi satu composite index sejak awal. Kita ingin mengetahui **rantai kausal/temporal**.
+Machine learning (clustering) diposisikan sebagai tools untuk menemukan **response regimes**. Lebih lanjut, penelitian ini juga menggunakan interpretable methods (k-means, hierarchical, GMM, SOM).
 
 ---
 
