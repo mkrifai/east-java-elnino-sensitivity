@@ -1,0 +1,72 @@
+{
+  "generated": "2026-09-21T22:42:44.733660",
+  "provincial_mean_lsi": 0.576,
+  "total_area_km2": 44528.2,
+  "cluster_regimes": [
+    {
+      "raw_id": 4,
+      "area_km2": 6754.1,
+      "z_p": -0.837,
+      "z_sm": -0.853,
+      "z_lst": 0.584,
+      "z_ndvi": -0.439,
+      "z_ndmi": -0.66,
+      "mean_lsi": 0.449,
+      "regime_id": 1,
+      "area_pct": 15.2,
+      "regime_name": "Regime 1: Buffered Highland Forests & Volcanic Slopes (Resilient)"
+    },
+    {
+      "raw_id": 3,
+      "area_km2": 10673.4,
+      "z_p": -0.8,
+      "z_sm": -0.987,
+      "z_lst": 0.654,
+      "z_ndvi": -0.388,
+      "z_ndmi": -0.607,
+      "mean_lsi": 0.463,
+      "regime_id": 2,
+      "area_pct": 24.0,
+      "regime_name": "Regime 2: Irrigated Alluvial River Basins (Moderately Buffered)"
+    },
+    {
+      "raw_id": 0,
+      "area_km2": 10185.0,
+      "z_p": -0.757,
+      "z_sm": -0.91,
+      "z_lst": 0.893,
+      "z_ndvi": -0.84,
+      "z_ndmi": -1.015,
+      "mean_lsi": 0.643,
+      "regime_id": 3,
+      "area_pct": 22.9,
+      "regime_name": "Regime 3: Rolling Uplands & Mixed Croplands (Moderate Sensitivity)"
+    },
+    {
+      "raw_id": 1,
+      "area_km2": 6967.3,
+      "z_p": -0.864,
+      "z_sm": -1.077,
+      "z_lst": 0.765,
+      "z_ndvi": -0.805,
+      "z_ndmi": -0.938,
+      "mean_lsi": 0.65,
+      "regime_id": 4,
+      "area_pct": 15.6,
+      "regime_name": "Regime 4: Arid Rain-Shadow Corridors (High Moisture Deficit)"
+    },
+    {
+      "raw_id": 2,
+      "area_km2": 9948.4,
+      "z_p": -0.912,
+      "z_sm": -0.961,
+      "z_lst": 0.816,
+      "z_ndvi": -0.852,
+      "z_ndmi": -0.967,
+      "mean_lsi": 0.663,
+      "regime_id": 5,
+      "area_pct": 22.3,
+      "regime_name": "Regime 5: Hyper-Sensitive Lowland Plains & Karst (Critical Vulnerability)"
+    }
+  ]
+}

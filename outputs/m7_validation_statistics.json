@@ -1,0 +1,101 @@
+{
+  "generated": "2026-09-21T23:08:49.033681",
+  "climate_validation": {
+    "satellite_sensor_comparison": "CHIRPS v2.0 (IR/Gauge) vs NASA GPM IMERG V07 (Microwave/Radar)",
+    "spatial_correlation_r": 0.665,
+    "p_value": 2.9164806275244077e-248,
+    "mean_chirps_son_mm": 180.7,
+    "mean_gpm_son_mm": 241.6,
+    "mean_bias_mm": -60.9,
+    "mean_spatial_consistency_index": 0.831
+  },
+  "remote_sensing_validation": {
+    "indices_comparison": "MODIS NDVI vs MODIS EVI (Standardized Anomalies)",
+    "spatial_correlation_r": 0.73,
+    "r_squared": 0.532,
+    "mean_anomaly_agreement_index": 0.872
+  },
+  "baseline_sensitivity_test": {
+    "comparison": "Neutral-Years Baseline (6 yrs) vs All-Years Baseline (25 yrs)",
+    "spatial_correlation_r": 0.709,
+    "conclusion": "Spatial topology is robustly preserved (r > 0.70); neutral baseline prevents severe anomaly underestimation."
+  },
+  "ensemble_uncertainty": {
+    "sample_events_count": 8,
+    "sample_events": [
+      2002,
+      2004,
+      2009,
+      2014,
+      2015,
+      2006,
+      2018,
+      2023
+    ],
+    "lsi_ensemble_mean": 0.563,
+    "lsi_ensemble_std": 0.277,
+    "lsi_coefficient_of_variation": 0.557,
+    "robust_high_confidence_area_pct": 35.1
+  },
+  "empirical_ground_truth_validation": {
+    "data_source": "BPS Jawa Timur & BPBD Historical Disaster Bulletins (2015 & 2023)",
+    "spearman_rank_agreement_rho": 0.7,
+    "p_value": 0.03576957497026169,
+    "empirical_sample": [
+      {
+        "district": "Lamongan",
+        "modeled_asi_rank": 1,
+        "recorded_drought_events": 42,
+        "recorded_rice_damage_ha": 18450
+      },
+      {
+        "district": "Gresik",
+        "modeled_asi_rank": 2,
+        "recorded_drought_events": 28,
+        "recorded_rice_damage_ha": 9200
+      },
+      {
+        "district": "Bojonegoro",
+        "modeled_asi_rank": 3,
+        "recorded_drought_events": 48,
+        "recorded_rice_damage_ha": 16800
+      },
+      {
+        "district": "Jombang",
+        "modeled_asi_rank": 4,
+        "recorded_drought_events": 24,
+        "recorded_rice_damage_ha": 8100
+      },
+      {
+        "district": "Nganjuk",
+        "modeled_asi_rank": 5,
+        "recorded_drought_events": 26,
+        "recorded_rice_damage_ha": 7650
+      },
+      {
+        "district": "Tuban",
+        "modeled_asi_rank": 6,
+        "recorded_drought_events": 35,
+        "recorded_rice_damage_ha": 12400
+      },
+      {
+        "district": "Ngawi",
+        "modeled_asi_rank": 9,
+        "recorded_drought_events": 31,
+        "recorded_rice_damage_ha": 11300
+      },
+      {
+        "district": "Sampang",
+        "modeled_asi_rank": 20,
+        "recorded_drought_events": 39,
+        "recorded_rice_damage_ha": 4200
+      },
+      {
+        "district": "Pacitan",
+        "modeled_asi_rank": 39,
+        "recorded_drought_events": 6,
+        "recorded_rice_damage_ha": 410
+      }
+    ]
+  }
+}

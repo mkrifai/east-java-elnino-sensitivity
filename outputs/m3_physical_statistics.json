@@ -1,0 +1,264 @@
+{
+  "generated": "2026-09-21T22:00:15.002521",
+  "baseline_years": [
+    2001,
+    2003,
+    2012,
+    2013,
+    2019,
+    2025
+  ],
+  "sm_baseline_mean_jja": 0.24146322504505516,
+  "sm_baseline_mean_son": 0.23695697216173556,
+  "lst_baseline_mean_jja_degC": 29.06908391666779,
+  "lst_baseline_mean_son_degC": 33.333968720632946,
+  "provincial_stats": {
+    "sm_jja_elnino_anom": -0.030075883524872452,
+    "sm_jja_elnino_z": -0.5347952005006417,
+    "sm_son_elnino_anom": -0.04716012039163959,
+    "sm_son_elnino_z": -0.9564561910177014,
+    "sm_son_pure_anom": -0.043445427894603365,
+    "sm_son_iod_anom": -0.05335127455336664,
+    "sm_son_lanina_anom": 0.048782061214832334,
+    "lst_jja_elnino_anom": 0.4548354855051476,
+    "lst_jja_elnino_z": 0.2767311863995081,
+    "lst_son_elnino_anom": 1.7119399258052492,
+    "lst_son_elnino_z": 0.7507049225621467,
+    "lst_son_pure_anom": 1.9130323027753253,
+    "lst_son_iod_anom": 1.3767935471224826,
+    "lst_son_lanina_anom": -0.9260134764895018,
+    "psi_elnino_mean": 1.708855223418922
+  },
+  "sm_per_event_jja": [
+    {
+      "year": 2002,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly": -0.0593,
+      "z_score": -1.048
+    },
+    {
+      "year": 2004,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly": -0.0269,
+      "z_score": -0.48
+    },
+    {
+      "year": 2009,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly": -0.0034,
+      "z_score": -0.069
+    },
+    {
+      "year": 2014,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly": -0.0034,
+      "z_score": -0.086
+    },
+    {
+      "year": 2015,
+      "intensity": "Very Strong",
+      "iod_positive": "No",
+      "anomaly": -0.054,
+      "z_score": -0.953
+    },
+    {
+      "year": 2006,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly": -0.0127,
+      "z_score": -0.223
+    },
+    {
+      "year": 2018,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly": -0.0475,
+      "z_score": -0.833
+    },
+    {
+      "year": 2023,
+      "intensity": "Strong",
+      "iod_positive": "Yes",
+      "anomaly": -0.0333,
+      "z_score": -0.585
+    }
+  ],
+  "sm_per_event_son": [
+    {
+      "year": 2002,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly": -0.0594,
+      "z_score": -1.2
+    },
+    {
+      "year": 2004,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly": -0.0327,
+      "z_score": -0.68
+    },
+    {
+      "year": 2009,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly": -0.0256,
+      "z_score": -0.544
+    },
+    {
+      "year": 2014,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly": -0.0399,
+      "z_score": -0.805
+    },
+    {
+      "year": 2015,
+      "intensity": "Very Strong",
+      "iod_positive": "No",
+      "anomaly": -0.0596,
+      "z_score": -1.203
+    },
+    {
+      "year": 2006,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly": -0.068,
+      "z_score": -1.372
+    },
+    {
+      "year": 2018,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly": -0.0303,
+      "z_score": -0.616
+    },
+    {
+      "year": 2023,
+      "intensity": "Strong",
+      "iod_positive": "Yes",
+      "anomaly": -0.0617,
+      "z_score": -1.233
+    }
+  ],
+  "lst_per_event_jja": [
+    {
+      "year": 2002,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly": 1.1412,
+      "z_score": 0.694
+    },
+    {
+      "year": 2004,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly": 0.3164,
+      "z_score": 0.169
+    },
+    {
+      "year": 2009,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly": 0.7392,
+      "z_score": 0.563
+    },
+    {
+      "year": 2014,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly": -0.0691,
+      "z_score": -0.007
+    },
+    {
+      "year": 2015,
+      "intensity": "Very Strong",
+      "iod_positive": "No",
+      "anomaly": 0.6194,
+      "z_score": 0.388
+    },
+    {
+      "year": 2006,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly": -0.0888,
+      "z_score": -0.201
+    },
+    {
+      "year": 2018,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly": 0.9935,
+      "z_score": 0.61
+    },
+    {
+      "year": 2023,
+      "intensity": "Strong",
+      "iod_positive": "Yes",
+      "anomaly": -0.0041,
+      "z_score": 0.004
+    }
+  ],
+  "lst_per_event_son": [
+    {
+      "year": 2002,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly": 2.5751,
+      "z_score": 1.129
+    },
+    {
+      "year": 2004,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly": 1.5519,
+      "z_score": 0.632
+    },
+    {
+      "year": 2009,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly": 1.3629,
+      "z_score": 0.585
+    },
+    {
+      "year": 2014,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly": 1.831,
+      "z_score": 0.832
+    },
+    {
+      "year": 2015,
+      "intensity": "Very Strong",
+      "iod_positive": "No",
+      "anomaly": 2.2606,
+      "z_score": 1.05
+    },
+    {
+      "year": 2006,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly": 2.16,
+      "z_score": 0.959
+    },
+    {
+      "year": 2018,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly": 1.5324,
+      "z_score": 0.628
+    },
+    {
+      "year": 2023,
+      "intensity": "Strong",
+      "iod_positive": "Yes",
+      "anomaly": 0.4407,
+      "z_score": 0.207
+    }
+  ]
+}

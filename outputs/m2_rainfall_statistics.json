@@ -1,0 +1,129 @@
+{
+  "generated": "2026-09-21T21:49:39.261419",
+  "baseline_years": [
+    2001,
+    2003,
+    2012,
+    2013,
+    2019,
+    2025
+  ],
+  "jja_climatology_mean_mm": 160.77288167627088,
+  "son_climatology_mean_mm": 331.7484316735301,
+  "jja_per_event": [
+    {
+      "year": 2002,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly_mm": -113.4,
+      "z_score": -0.94
+    },
+    {
+      "year": 2004,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly_mm": -83.3,
+      "z_score": -0.7
+    },
+    {
+      "year": 2009,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly_mm": -66.9,
+      "z_score": -0.55
+    },
+    {
+      "year": 2014,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly_mm": -39.5,
+      "z_score": -0.34
+    },
+    {
+      "year": 2015,
+      "intensity": "Very Strong",
+      "iod_positive": "No",
+      "anomaly_mm": -91.8,
+      "z_score": -0.76
+    },
+    {
+      "year": 2006,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly_mm": -96.5,
+      "z_score": -0.79
+    },
+    {
+      "year": 2018,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly_mm": -70.2,
+      "z_score": -0.58
+    },
+    {
+      "year": 2023,
+      "intensity": "Strong",
+      "iod_positive": "Yes",
+      "anomaly_mm": -54.0,
+      "z_score": -0.45
+    }
+  ],
+  "son_per_event": [
+    {
+      "year": 2002,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly_mm": -140.2,
+      "z_score": -0.77
+    },
+    {
+      "year": 2004,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly_mm": -73.6,
+      "z_score": -0.41
+    },
+    {
+      "year": 2009,
+      "intensity": "Moderate",
+      "iod_positive": "No",
+      "anomaly_mm": -153.3,
+      "z_score": -0.86
+    },
+    {
+      "year": 2014,
+      "intensity": "Weak",
+      "iod_positive": "No",
+      "anomaly_mm": -146.5,
+      "z_score": -0.81
+    },
+    {
+      "year": 2015,
+      "intensity": "Very Strong",
+      "iod_positive": "No",
+      "anomaly_mm": -199.9,
+      "z_score": -1.1
+    },
+    {
+      "year": 2006,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly_mm": -259.2,
+      "z_score": -1.43
+    },
+    {
+      "year": 2018,
+      "intensity": "Weak",
+      "iod_positive": "Yes",
+      "anomaly_mm": -48.8,
+      "z_score": -0.27
+    },
+    {
+      "year": 2023,
+      "intensity": "Strong",
+      "iod_positive": "Yes",
+      "anomaly_mm": -184.5,
+      "z_score": -1.01
+    }
+  ]
+}

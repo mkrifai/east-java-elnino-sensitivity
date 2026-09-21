@@ -1,0 +1,5 @@
+# Python Dependencies for East Java El Niño Spatial Sensitivity Project
+earthengine-api>=0.1.380
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0

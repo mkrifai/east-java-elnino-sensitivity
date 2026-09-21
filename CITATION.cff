@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, datasets, or policy frameworks, please cite it as below."
+authors:
+  - family-names: "Rifai"
+    given-names: "Mochamad Khoirul"
+    affiliation: "Spatial Data Science & Climate Resilience Research"
+title: "Mapping the Spatial Sensitivity of East Java Landscapes to El Niño (2001–2025): A 25-Year Multi-Sensor Earth Observation Pipeline and Policy Translation Framework"
+version: 1.0.0
+date-released: 2026-09-21
+url: "https://github.com/mkrifai/east-java-elnino-sensitivity"
+repository-code: "https://github.com/mkrifai/east-java-elnino-sensitivity"
+license: "CC-BY-4.0"
+keywords:
+  - "El Niño"
+  - "Google Earth Engine"
+  - "Drought Sensitivity"
+  - "Remote Sensing"
+  - "East Java"
+  - "Agriculture"
+  - "Climate Resilience"
+  - "Public Policy"
+abstract: "A 25-year multi-sensor satellite observation pipeline (2001–2025) in Google Earth Engine mapping the terrestrial sensitivity of East Java landscapes to El Niño across a 1 km grid, producing four operational deliverables: Climate Response Atlas, Landscape Sensitivity Atlas, Agricultural Sensitivity Atlas, and Policy Translation Decision-Support Framework."

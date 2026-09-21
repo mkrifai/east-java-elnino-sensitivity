@@ -1,0 +1,363 @@
+{
+  "generated": "2026-09-21T22:51:23.255427",
+  "total_districts": 39,
+  "district_rankings": [
+    {
+      "district_name": "Lamongan",
+      "mean_lsi": 0.71,
+      "crop_fraction": 0.702,
+      "mean_asi": 0.4793,
+      "critical_hotspot_pct": 51.5,
+      "priority_rank": 1,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Gresik",
+      "mean_lsi": 0.604,
+      "crop_fraction": 0.457,
+      "mean_asi": 0.3571,
+      "critical_hotspot_pct": 36.9,
+      "priority_rank": 2,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Bojonegoro",
+      "mean_lsi": 0.762,
+      "crop_fraction": 0.447,
+      "mean_asi": 0.3386,
+      "critical_hotspot_pct": 39.5,
+      "priority_rank": 3,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Jombang",
+      "mean_lsi": 0.679,
+      "crop_fraction": 0.494,
+      "mean_asi": 0.3353,
+      "critical_hotspot_pct": 33.1,
+      "priority_rank": 4,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Nganjuk",
+      "mean_lsi": 0.649,
+      "crop_fraction": 0.431,
+      "mean_asi": 0.2933,
+      "critical_hotspot_pct": 32.4,
+      "priority_rank": 5,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Tuban",
+      "mean_lsi": 0.667,
+      "crop_fraction": 0.46,
+      "mean_asi": 0.2913,
+      "critical_hotspot_pct": 28.3,
+      "priority_rank": 6,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Kediri",
+      "mean_lsi": 0.604,
+      "crop_fraction": 0.439,
+      "mean_asi": 0.2852,
+      "critical_hotspot_pct": 25.3,
+      "priority_rank": 7,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Mojokerto",
+      "mean_lsi": 0.616,
+      "crop_fraction": 0.405,
+      "mean_asi": 0.285,
+      "critical_hotspot_pct": 29.4,
+      "priority_rank": 8,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Ngawi",
+      "mean_lsi": 0.763,
+      "crop_fraction": 0.369,
+      "mean_asi": 0.2842,
+      "critical_hotspot_pct": 33.1,
+      "priority_rank": 9,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Magetan",
+      "mean_lsi": 0.603,
+      "crop_fraction": 0.415,
+      "mean_asi": 0.2595,
+      "critical_hotspot_pct": 23.5,
+      "priority_rank": 10,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Madiun",
+      "mean_lsi": 0.633,
+      "crop_fraction": 0.345,
+      "mean_asi": 0.2329,
+      "critical_hotspot_pct": 25.1,
+      "priority_rank": 11,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Kota Madiun",
+      "mean_lsi": 0.643,
+      "crop_fraction": 0.318,
+      "mean_asi": 0.2327,
+      "critical_hotspot_pct": 26.0,
+      "priority_rank": 12,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Kota Kediri",
+      "mean_lsi": 0.509,
+      "crop_fraction": 0.421,
+      "mean_asi": 0.2302,
+      "critical_hotspot_pct": 17.5,
+      "priority_rank": 13,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Sidoarjo",
+      "mean_lsi": 0.475,
+      "crop_fraction": 0.412,
+      "mean_asi": 0.2163,
+      "critical_hotspot_pct": 8.4,
+      "priority_rank": 14,
+      "risk_tier": "Extreme Priority (Tier 1)"
+    },
+    {
+      "district_name": "Kota Blitar",
+      "mean_lsi": 0.524,
+      "crop_fraction": 0.262,
+      "mean_asi": 0.1756,
+      "critical_hotspot_pct": 16.2,
+      "priority_rank": 15,
+      "risk_tier": "High Priority (Tier 2)"
+    },
+    {
+      "district_name": "Bondowoso",
+      "mean_lsi": 0.65,
+      "crop_fraction": 0.167,
+      "mean_asi": 0.1458,
+      "critical_hotspot_pct": 16.0,
+      "priority_rank": 16,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Pasuruan",
+      "mean_lsi": 0.558,
+      "crop_fraction": 0.244,
+      "mean_asi": 0.1448,
+      "critical_hotspot_pct": 12.2,
+      "priority_rank": 17,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Pamekasan",
+      "mean_lsi": 0.664,
+      "crop_fraction": 0.2,
+      "mean_asi": 0.1426,
+      "critical_hotspot_pct": 16.7,
+      "priority_rank": 18,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Sampang",
+      "mean_lsi": 0.63,
+      "crop_fraction": 0.219,
+      "mean_asi": 0.1401,
+      "critical_hotspot_pct": 12.2,
+      "priority_rank": 19,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Situbondo",
+      "mean_lsi": 0.591,
+      "crop_fraction": 0.252,
+      "mean_asi": 0.1321,
+      "critical_hotspot_pct": 13.5,
+      "priority_rank": 20,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Ponorogo",
+      "mean_lsi": 0.508,
+      "crop_fraction": 0.225,
+      "mean_asi": 0.1277,
+      "critical_hotspot_pct": 8.4,
+      "priority_rank": 21,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Kota Pasuruan",
+      "mean_lsi": 0.453,
+      "crop_fraction": 0.219,
+      "mean_asi": 0.121,
+      "critical_hotspot_pct": 5.5,
+      "priority_rank": 22,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Jember",
+      "mean_lsi": 0.467,
+      "crop_fraction": 0.192,
+      "mean_asi": 0.1147,
+      "critical_hotspot_pct": 9.6,
+      "priority_rank": 23,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Bangkalan",
+      "mean_lsi": 0.66,
+      "crop_fraction": 0.188,
+      "mean_asi": 0.1073,
+      "critical_hotspot_pct": 10.3,
+      "priority_rank": 24,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Tulungagung",
+      "mean_lsi": 0.543,
+      "crop_fraction": 0.184,
+      "mean_asi": 0.1037,
+      "critical_hotspot_pct": 6.6,
+      "priority_rank": 25,
+      "risk_tier": "Moderate Priority (Tier 3)"
+    },
+    {
+      "district_name": "Kota Jember",
+      "mean_lsi": 0.551,
+      "crop_fraction": 0.143,
+      "mean_asi": 0.0949,
+      "critical_hotspot_pct": 11.5,
+      "priority_rank": 26,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Kota Probolinggo",
+      "mean_lsi": 0.372,
+      "crop_fraction": 0.236,
+      "mean_asi": 0.0901,
+      "critical_hotspot_pct": 0,
+      "priority_rank": 27,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Sumenep",
+      "mean_lsi": 0.613,
+      "crop_fraction": 0.118,
+      "mean_asi": 0.0782,
+      "critical_hotspot_pct": 6.9,
+      "priority_rank": 28,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Banyuwangi",
+      "mean_lsi": 0.429,
+      "crop_fraction": 0.144,
+      "mean_asi": 0.0769,
+      "critical_hotspot_pct": 5.2,
+      "priority_rank": 29,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Probolinggo",
+      "mean_lsi": 0.406,
+      "crop_fraction": 0.205,
+      "mean_asi": 0.0757,
+      "critical_hotspot_pct": 1.8,
+      "priority_rank": 30,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Lumajang",
+      "mean_lsi": 0.349,
+      "crop_fraction": 0.156,
+      "mean_asi": 0.0709,
+      "critical_hotspot_pct": 3.7,
+      "priority_rank": 31,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Blitar",
+      "mean_lsi": 0.488,
+      "crop_fraction": 0.119,
+      "mean_asi": 0.0602,
+      "critical_hotspot_pct": 3.1,
+      "priority_rank": 32,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Kota Malang",
+      "mean_lsi": 0.599,
+      "crop_fraction": 0.094,
+      "mean_asi": 0.0568,
+      "critical_hotspot_pct": 5.6,
+      "priority_rank": 33,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Kota Mojokerto",
+      "mean_lsi": 0.575,
+      "crop_fraction": 0.099,
+      "mean_asi": 0.051,
+      "critical_hotspot_pct": 4.8,
+      "priority_rank": 34,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Kota Surabaya",
+      "mean_lsi": 0.514,
+      "crop_fraction": 0.083,
+      "mean_asi": 0.0394,
+      "critical_hotspot_pct": 2.4,
+      "priority_rank": 35,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Trenggalek",
+      "mean_lsi": 0.44,
+      "crop_fraction": 0.066,
+      "mean_asi": 0.0382,
+      "critical_hotspot_pct": 3.7,
+      "priority_rank": 36,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Malang",
+      "mean_lsi": 0.503,
+      "crop_fraction": 0.061,
+      "mean_asi": 0.0371,
+      "critical_hotspot_pct": 2.5,
+      "priority_rank": 37,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Kota Batu",
+      "mean_lsi": 0.431,
+      "crop_fraction": 0.029,
+      "mean_asi": 0.0148,
+      "critical_hotspot_pct": 0.5,
+      "priority_rank": 38,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    },
+    {
+      "district_name": "Pacitan",
+      "mean_lsi": 0.475,
+      "crop_fraction": 0.006,
+      "mean_asi": 0.0033,
+      "critical_hotspot_pct": 0.2,
+      "priority_rank": 39,
+      "risk_tier": "Low / Buffered (Tier 4)"
+    }
+  ],
+  "policy_zones_description": {
+    "Zone_1": "Critical Emergency Intervention Zone (High LSI >= 0.60 & Crop Fraction >= 0.30)",
+    "Zone_2": "Hydrologic Vulnerability & Irrigation Conflict Zone (High LSI >= 0.60 & Crop Fraction < 0.30)",
+    "Zone_3": "Rain-Shadow & Fodder/Orchard Vulnerability Zone (0.50 <= LSI < 0.60)",
+    "Zone_4": "Ecological Catchment Protection Zone (LSI < 0.50)"
+  }
+}
