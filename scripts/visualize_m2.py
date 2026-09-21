@@ -305,23 +305,56 @@ ax2.set_xlabel('El Niño Episodes (2001–2025) Classified by Pacific & Indian O
 fig.suptitle('East Java Provincial Precipitation Response Across 25 Years of El Niño Episodes (2001–2025)',
              fontsize=13.5, fontweight='bold', y=0.98)
 
-# Explanatory caption box at the bottom
-footnote = (
-    "Dataset: UCSB CHIRPS v2.0 (0.05° resolution resampled to 1 km). "
-    "Baseline Climatology: 6 neutral ENSO years (2001, 2003, 2012, 2013, 2019, 2025) within the 2001–2025 multi-sensor domain. "
-    "ENSO: NOAA CPC ONI ≥ +0.5°C (≥5 consecutive seasons). IOD+: BoM/NOAA DMI ≥ +0.4°C (JJA/SON). "
-    "Error bars indicate ±1 standard error of the mean (SEM). Threshold Z = −1.0 corresponds to moderate-to-severe meteorological dryness."
-)
-fig.text(0.5, 0.015, footnote, ha='center', fontsize=7.2, color='#475569',
-         bbox=dict(boxstyle='square,pad=0.4', fc='#F1F5F9', ec='#CBD5E1', lw=0.6))
+# Apply tight layout first so axes positions are finalized
+plt.tight_layout(rect=[0, 0.08, 1, 0.96])
 
-plt.tight_layout(rect=[0, 0.04, 1, 0.96])
+# Explanatory caption box at the bottom (matching the exact width of the main plot box)
+from matplotlib.patches import FancyBboxPatch
 
-# Save high-resolution publication PNG and vector PDF
+pos2 = ax2.get_position()
+box_x0 = pos2.x0
+box_w = pos2.width
+box_y0 = 0.012
+box_h = 0.054
+
+rect = FancyBboxPatch((box_x0, box_y0), box_w, box_h,
+                      boxstyle='round,pad=0.004,rounding_size=0.008',
+                      transform=fig.transFigure,
+                      fc='#F8FAFC', ec='#CBD5E1', lw=0.9, alpha=0.95, zorder=1)
+fig.patches.append(rect)
+
+t1 = "• Dataset: UCSB CHIRPS v2.0 (0.05° resolution resampled to 1 km)   |   Baseline Climatology: 6 neutral ENSO years (2001, 2003, 2012, 2013, 2019, 2025) within 2001–2025 multi-sensor domain"
+t2 = "• Criteria: Pure ENSO based on NOAA CPC ONI (≥ +0.5°C for ≥5 consecutive seasons)   |   Compound IOD+ based on BoM/NOAA DMI (≥ +0.4°C in JJA/SON)"
+t3 = "• Statistical Notation: Error bars on cohort composites indicate ±1 standard error of the mean (SEM). Threshold line Z = \u22121.0 denotes meteorological dryness."
+
+fig.text(box_x0 + 0.010, box_y0 + box_h * 0.72, t1, fontsize=8.2, color='#334155', va='center', zorder=2)
+fig.text(box_x0 + 0.010, box_y0 + box_h * 0.49, t2, fontsize=8.2, color='#334155', va='center', zorder=2)
+fig.text(box_x0 + 0.010, box_y0 + box_h * 0.26, t3, fontsize=8.2, color='#334155', va='center', zorder=2)
+
+# Save high-resolution publication PNG and vector PDF using safe write
+def safe_savefig(target_path, **kwargs):
+    base, ext = os.path.splitext(target_path)
+    tmp_path = f"{base}_tmp{ext}"
+    plt.savefig(tmp_path, **kwargs)
+    if os.path.exists(target_path):
+        try:
+            os.remove(target_path)
+        except Exception:
+            pass
+    try:
+        os.replace(tmp_path, target_path)
+    except Exception:
+        import shutil
+        shutil.copyfile(tmp_path, target_path)
+        if os.path.exists(tmp_path):
+            os.remove(tmp_path)
+
+
 plot_path_png = os.path.join(OUTPUT_DIR, 'm2_elnino_rainfall_anomalies.png')
 plot_path_pdf = os.path.join(OUTPUT_DIR, 'm2_elnino_rainfall_anomalies.pdf')
 
-plt.savefig(plot_path_png, dpi=300, bbox_inches='tight')
-plt.savefig(plot_path_pdf, bbox_inches='tight')
+safe_savefig(plot_path_png, dpi=300, bbox_inches='tight')
+safe_savefig(plot_path_pdf, bbox_inches='tight')
 print(f"[OK] High-resolution publication chart saved to: {plot_path_png}")
 print(f"[OK] Vector publication PDF saved to: {plot_path_pdf}")
+
