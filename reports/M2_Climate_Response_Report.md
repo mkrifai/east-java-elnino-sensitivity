@@ -25,7 +25,8 @@ El Niño Perturbation:
 ```
 
 ![Milestone 2 Rainfall Anomalies](../outputs/m2_elnino_rainfall_anomalies.png)
-*Figure 1: (Left) Mean seasonal rainfall anomalies for JJA, SON, and full dry season (JJASON) under El Niño composite forcing (2001–2025). (Right) Event-by-event SON rainfall deficits across 8 historical El Niño episodes, illustrating compound IOD+ amplification in 2006, 2018, and 2023.*
+*Figure 1: (a) Absolute precipitation anomaly (mm) and relative deficit (% of normal baseline) across 8 historical El Niño episodes and cohort composites, partitioned into Pure El Niño ($n=5$) and Compound El Niño + IOD+ ($n=3$). (b) Standardized meteorological anomaly (Z-score) relative to neutral baseline climatology, indicating the meteorological dryness threshold ($Z = -1.0$). Error bars on cohort means indicate $\pm 1$ standard error of the mean (SEM).*
+
 
 ### 1.2 Quantitative Climatological Baseline & Anomaly Distribution
 
@@ -65,9 +66,23 @@ Our empirical partitioning reveals stark differences between pure ENSO forcing a
 
 * **Empirical Validation**: In SON, concurrent positive IOD events exacerbate regional rainfall deficits by an additional **$-21.5\text{ mm}$** on average (**$-164.2\text{ mm}$** vs **$-142.7\text{ mm}$**).
 * **Extreme Event Magnification**: In the compound events of 2006 (Weak El Niño + Strong IOD+) and 2023 (Strong El Niño + Strong IOD+), SON deficits reached **$-259.2\text{ mm}$** ($Z = -1.43$) and **$-184.5\text{ mm}$** ($Z = -1.01$), respectively. In contrast, even during the "Very Strong" 1997-like pure El Niño of 2015, SON anomaly was $-199.9\text{ mm}$ ($Z = -1.10$).
-* **Conclusion**: **Hypothesis H1 is strongly supported**. The Indian Ocean Dipole acts as a major co-driver of catastrophic dry-season desiccation in East Java, and ignoring IOD interactions leads to substantial underestimation of peak drought severity.
+* **Conclusion**: **Hypothesis H1 is supported with important physical nuances**. The Indian Ocean Dipole acts as a major co-driver of catastrophic dry-season desiccation in East Java, elevating the tail risk of acute late-monsoon collapse.
+
+### 1.4 Methodological Discussion & Scientific Nuances
+
+In accordance with rigorous peer-review and climate evaluation standards, three critical methodological aspects are explicitly recognized:
+
+1. **Temporal Horizon & Multi-Sensor Harmonization (2001–2025)**:
+   While the World Meteorological Organization (WMO) standard recommends a 30-year climatological normal (e.g., 1991–2020), this research is designed as an end-to-end multi-sensor coupling pipeline spanning atmospheric forcing (CHIRPS), root-zone soil moisture (ERA5-Land), land surface temperature (MODIS Terra MOD11A2), and canopy phenology (MODIS MOD13A2/MOD09A1). Because daily MODIS Terra observations began in 2000/2001, a unified 25-year multi-sensor temporal window (2001–2025) was established across all milestones to ensure cross-sensor temporal consistency.
+
+2. **Compound Event Sample Size ($n = 3$) and Inter-Event Variance**:
+   Although concurrent positive IOD exacerbates provincial mean SON deficits by an additional $-21.5\text{ mm}$ on average ($-164.2\text{ mm}$ vs $-142.7\text{ mm}$ in pure events), the sample size is small ($n = 3$ compound vs $n = 5$ pure) and exhibits substantial spread. Specifically, 2018 represents a modest dry-season anomaly (SON deficit of $-48.8\text{ mm}$ due to late IOD development and early November rainfall recovery), whereas 2006 ($-259.2\text{ mm}$) and 2023 ($-184.5\text{ mm}$) represent severe compound collapse. Consequently, IOD+ should be interpreted as an asymmetric risk-magnifier that elevates the upper bound of late-season agricultural exposure.
+
+3. **Neutral Baseline Composition & The 2019 Super-IOD Event**:
+   Neutral baseline years ($2001, 2003, 2012, 2013, 2019, 2025$) were selected strictly according to NOAA CPC ONI criteria (neither El Niño nor La Niña thresholds met for 5 consecutive seasons). Climatologically, however, late 2019 featured a historic positive Indian Ocean Dipole ($DMI > +1.2^\circ\text{C}$). Inclusion of 2019 slightly depresses the baseline neutral SON rainfall mean, which implies that the calculated El Niño deficits reported in this atlas are **conservative lower-bound estimates** rather than overstated anomalies.
 
 ---
+
 
 ## PART 2: PUBLIC REPORT & WHY IT MATTERS TO CITIZENS AND GOVERNMENT
 
