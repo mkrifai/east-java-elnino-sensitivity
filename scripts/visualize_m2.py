@@ -18,7 +18,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtransforms
 import matplotlib.patheffects as pe
-from matplotlib.patches import Patch
+from matplotlib.patches import Patch, FancyBboxPatch, Rectangle
+from matplotlib.lines import Line2D
+from matplotlib.offsetbox import AnchoredOffsetbox, VPacker, HPacker, TextArea, DrawingArea
 
 OUTPUT_DIR = 'outputs' if os.path.exists('outputs') else os.path.join(os.path.dirname(os.path.dirname(__file__)), 'outputs')
 JSON_PATH = os.path.join(OUTPUT_DIR, 'm2_rainfall_statistics.json')
@@ -95,8 +97,8 @@ c_whisker  = '#0F172A'  # Deep Slate for error bars
 c_thresh   = '#0F172A'  # Dryness threshold line
 
 plt.style.use('seaborn-v0_8-whitegrid' if 'seaborn-v0_8-whitegrid' in plt.style.available else 'default')
-fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(13.0, 8.8), sharex=True, dpi=300)
-fig.subplots_adjust(top=0.81, bottom=0.11, left=0.08, right=0.97, hspace=0.24)
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(13.0, 9.4), sharex=True, dpi=300)
+fig.subplots_adjust(top=0.835, bottom=0.165, left=0.08, right=0.97, hspace=0.12)
 
 err_kw = dict(lw=1.3, capthick=1.3, ecolor=c_whisker)
 text_stroke = [pe.withStroke(linewidth=2.8, foreground='white')]
@@ -104,12 +106,6 @@ text_stroke = [pe.withStroke(linewidth=2.8, foreground='white')]
 # =========================================================================
 # PANEL 1: SEASONAL PRECIPITATION ANOMALY (mm)
 # =========================================================================
-
-# Baseline Climatology Sampling Uncertainty (+-1 SE) around zero line
-ax1.axhspan(-jja_baseline_se, jja_baseline_se, color='#94A3B8', alpha=0.20, zorder=0,
-            label=f'Baseline Mean Uncertainty: JJA (\u00b1{jja_baseline_se:.0f} mm)')
-ax1.axhspan(-son_baseline_se, son_baseline_se, color='#64748B', alpha=0.12, zorder=0,
-            label=f'Baseline Mean Uncertainty: SON (\u00b1{son_baseline_se:.0f} mm)')
 
 # Pure El Niño bars
 b1_pure_jja = ax1.bar(x_pure - bar_width/2, pure['jja_anom'], bar_width,
@@ -141,7 +137,9 @@ b1_sum_iod_son = ax1.bar(x_summary[1] + bar_width/2, mean_iod_son_anom, bar_widt
 # Prominent zero baseline (zorder=3 to ensure sharp un-obscured boundary)
 ax1.axhline(0, color='#0F172A', linewidth=1.2, zorder=3)
 ax1.set_ylabel('Precipitation Anomaly (mm)', fontsize=10.5, fontweight='bold')
-ax1.set_ylim(-340, 85)
+ax1.set_ylim(-315, 15)
+ax1.set_yticks([-300, -250, -200, -150, -100, -50, 0])
+ax1.set_yticklabels(['\u2212300', '\u2212250', '\u2212200', '\u2212150', '\u2212100', '\u221250', '0'], fontsize=8.5)
 ax1.grid(True, linestyle=':', alpha=0.5, zorder=0)
 
 # Value annotations for Panel 1: strictly below bar bottoms with white stroke contour
@@ -176,43 +174,72 @@ annotate_summary_p1(x_summary[1] + bar_width/2, mean_iod_son_anom, sem_iod_son_a
 ax1.axvline(4.60, color='#94A3B8', linestyle='--', linewidth=1.2, alpha=0.8, zorder=1)
 ax1.axvline(7.95, color='#94A3B8', linestyle='-', linewidth=1.4, alpha=0.9, zorder=1)
 
-# Group headers outside top frame using blended transform (with generous clearance above panel title)
+# Group headers outside top frame using blended transform (with clear separation above panel title)
 blended_1 = mtransforms.blended_transform_factory(ax1.transData, ax1.transAxes)
-ax1.text(2.0, 1.15, 'Pure El Niño (n = 5)', ha='center', va='bottom',
+ax1.text(2.0, 1.14, 'Pure El Niño (n = 5)', ha='center', va='bottom',
          transform=blended_1, fontsize=9.5, fontweight='bold', color='#0072B2')
-ax1.text(6.2, 1.15, 'Compound: El Niño + IOD+ (n = 3)', ha='center', va='bottom',
+ax1.text(6.2, 1.14, 'Compound: El Niño + IOD+ (n = 3)', ha='center', va='bottom',
          transform=blended_1, fontsize=9.5, fontweight='bold', color='#D55E00')
-ax1.text(9.2, 1.15, 'Cohort Composites (±1 SEM)', ha='center', va='bottom',
+ax1.text(9.2, 1.14, 'Cohort Composites (±1 SEM)', ha='center', va='bottom',
          transform=blended_1, fontsize=9.5, fontweight='bold', color='#1E293B')
 
-# Group bracket lines
-ax1.plot([-0.35, 4.35], [1.11, 1.11], transform=blended_1, color='#0072B2', lw=1.3, clip_on=False)
-ax1.plot([4.85, 7.55], [1.11, 1.11], transform=blended_1, color='#D55E00', lw=1.3, clip_on=False)
-ax1.plot([8.35, 10.05], [1.11, 1.11], transform=blended_1, color='#1E293B', lw=1.3, clip_on=False)
+# Group bracket lines (placed at 1.10, well above panel title at ~1.03)
+ax1.plot([-0.35, 4.35], [1.10, 1.10], transform=blended_1, color='#0072B2', lw=1.3, clip_on=False)
+ax1.plot([4.85, 7.55], [1.10, 1.10], transform=blended_1, color='#D55E00', lw=1.3, clip_on=False)
+ax1.plot([8.35, 10.05], [1.10, 1.10], transform=blended_1, color='#1E293B', lw=1.3, clip_on=False)
 
 # Subplot Title placed cleanly OUTSIDE the plot frame below the brackets
 ax1.set_title('(a) Seasonal Precipitation Anomaly (mm) and Relative Departure (% of Climatological Baseline)',
-              loc='left', fontsize=10.5, fontweight='bold', pad=8)
+              loc='left', fontsize=10.2, fontweight='bold', pad=6)
 
-# Legend in Panel 1
-legend_elements_1 = [
-    Patch(facecolor=c_pure_jja, edgecolor='#1E3A8A', label='JJA Early Dry (Pure El Niño)'),
-    Patch(facecolor=c_pure_son, edgecolor='#0F172A', hatch='/', label='SON Peak Dry (Pure El Niño)'),
-    Patch(facecolor=c_iod_jja, edgecolor='#78350F', label='JJA Early Dry (El Niño + IOD+)'),
-    Patch(facecolor=c_iod_son, edgecolor='#450A0A', hatch='/', label='SON Peak Dry (El Niño + IOD+)'),
-    Patch(facecolor='#94A3B8', edgecolor='#64748B', linewidth=0.8, alpha=0.30,
-          label='Baseline Uncertainty (\u00b11 SE: JJA \u00b149 mm, SON \u00b174 mm)'),
-]
-ax1.legend(handles=legend_elements_1, loc='upper right', ncol=2, fontsize=8.0, frameon=True, framealpha=0.95)
+# Legend in Panel 1: ENSO-Neutral Baseline spans 1 full row on top, followed by 2 cohort columns below
+da_top = DrawingArea(26, 10, 0, 0)
+da_top.add_artist(Line2D([0, 26], [5, 5], color='#0F172A', lw=1.4))
+ta_top = TextArea('ENSO-Neutral Baseline (0 mm / 100% of Climatological Baseline)',
+                  textprops=dict(fontsize=7.8, color='#0F172A', fontweight='bold'))
+row_top = HPacker(children=[da_top, ta_top], align='center', pad=0, sep=6)
+
+da_p_jja = DrawingArea(18, 10, 0, 0)
+da_p_jja.add_artist(Rectangle((0, 0), 18, 10, facecolor=c_pure_jja, edgecolor='#1E3A8A', lw=0.9))
+ta_p_jja = TextArea('JJA Early Dry (Pure El Niño)', textprops=dict(fontsize=7.6, color='#1E293B'))
+r_p_jja = HPacker(children=[da_p_jja, ta_p_jja], align='center', pad=0, sep=5)
+
+da_p_son = DrawingArea(18, 10, 0, 0)
+da_p_son.add_artist(Rectangle((0, 0), 18, 10, facecolor=c_pure_son, edgecolor='#0F172A', hatch='///', lw=0.9))
+ta_p_son = TextArea('SON Peak Dry (Pure El Niño)', textprops=dict(fontsize=7.6, color='#1E293B'))
+r_p_son = HPacker(children=[da_p_son, ta_p_son], align='center', pad=0, sep=5)
+
+col_pure = VPacker(children=[r_p_jja, r_p_son], align='left', pad=0, sep=4)
+
+da_c_jja = DrawingArea(18, 10, 0, 0)
+da_c_jja.add_artist(Rectangle((0, 0), 18, 10, facecolor=c_iod_jja, edgecolor='#78350F', lw=0.9))
+ta_c_jja = TextArea('JJA Early Dry (El Niño + IOD+)', textprops=dict(fontsize=7.6, color='#1E293B'))
+r_c_jja = HPacker(children=[da_c_jja, ta_c_jja], align='center', pad=0, sep=5)
+
+da_c_son = DrawingArea(18, 10, 0, 0)
+da_c_son.add_artist(Rectangle((0, 0), 18, 10, facecolor=c_iod_son, edgecolor='#450A0A', hatch='///', lw=0.9))
+ta_c_son = TextArea('SON Peak Dry (El Niño + IOD+)', textprops=dict(fontsize=7.6, color='#1E293B'))
+r_c_son = HPacker(children=[da_c_son, ta_c_son], align='center', pad=0, sep=5)
+
+col_iod = VPacker(children=[r_c_jja, r_c_son], align='left', pad=0, sep=4)
+
+row_cols = HPacker(children=[col_pure, col_iod], align='center', pad=0, sep=18)
+box_leg1 = VPacker(children=[row_top, row_cols], align='left', pad=0, sep=6)
+
+anchored_leg1 = AnchoredOffsetbox(loc='lower left', child=box_leg1, pad=0.45, borderpad=0.5,
+                                  frameon=True, bbox_to_anchor=(0.012, 0.03),
+                                  bbox_transform=ax1.transAxes)
+anchored_leg1.patch.set_boxstyle('round,pad=0.35,rounding_size=0.15')
+anchored_leg1.patch.set_facecolor('#FFFFFF')
+anchored_leg1.patch.set_edgecolor('#CBD5E1')
+anchored_leg1.patch.set_alpha(0.94)
+anchored_leg1.patch.set_linewidth(0.8)
+ax1.add_artist(anchored_leg1)
 
 
 # =========================================================================
 # PANEL 2: STANDARDIZED ANOMALY (Z-SCORE)
 # =========================================================================
-
-# Baseline Sampling Uncertainty (+-1 SE_Z = +-0.41) - Fully symmetric and visible
-ax2.axhspan(-z_baseline_se, z_baseline_se, color='#94A3B8', alpha=0.20, zorder=0,
-            label='Baseline Mean Uncertainty (\u00b11 SE = \u00b10.41)')
 
 # Pure El Niño bars
 b2_pure_jja = ax2.bar(x_pure - bar_width/2, pure['jja_z'], bar_width,
@@ -247,7 +274,9 @@ thresh_line = ax2.axhline(-1.0, color=c_thresh, linestyle='--', linewidth=1.3, z
                           label='Meteorological Dryness Threshold (Z = \u22121.0)')
 
 ax2.set_ylabel('Standardized Anomaly (Z-score)', fontsize=10.5, fontweight='bold')
-ax2.set_ylim(-1.62, 0.48)
+ax2.set_ylim(-1.62, 0.08)
+ax2.set_yticks([-1.6, -1.4, -1.2, -1.0, -0.8, -0.6, -0.4, -0.2, 0.0])
+ax2.set_yticklabels(['\u22121.6', '\u22121.4', '\u22121.2', '\u22121.0', '\u22120.8', '\u22120.6', '\u22120.4', '\u22120.2', '0.0'], fontsize=8.5)
 ax2.grid(True, linestyle=':', alpha=0.5, zorder=0)
 
 # Value annotations for Panel 2: strictly below bar bottoms with white stroke contour
@@ -282,14 +311,13 @@ ax2.axvline(7.95, color='#94A3B8', linestyle='-', linewidth=1.4, alpha=0.9, zord
 
 # Subplot Title placed cleanly OUTSIDE the plot frame
 ax2.set_title('(b) Standardized Meteorological Anomaly (Z-score relative to ENSO-Neutral Baseline)',
-              loc='left', fontsize=10.5, fontweight='bold', pad=8)
+              loc='left', fontsize=10.2, fontweight='bold', pad=5)
 
 legend_elements_2 = [
+    Line2D([0], [0], color='#0F172A', lw=1.4, label='ENSO-Neutral Baseline (Z = 0.0)'),
     thresh_line,
-    Patch(facecolor='#94A3B8', edgecolor='#64748B', linewidth=0.8, alpha=0.30,
-          label='Baseline Mean Uncertainty (\u00b11 SE = \u00b10.41)'),
 ]
-ax2.legend(handles=legend_elements_2, loc='lower left', fontsize=8.0, frameon=True, framealpha=0.95)
+ax2.legend(handles=legend_elements_2, loc='lower left', ncol=2, fontsize=7.8, frameon=True, framealpha=0.92)
 
 # =========================================================================
 # X-AXIS TICK LABELS & DUAL-SECTION LABELS
@@ -312,18 +340,59 @@ ax2.set_xticklabels(xticklabels, fontsize=8.8, fontweight='bold')
 
 # Dual-section x-axis labels with zero collision:
 blended_2 = mtransforms.blended_transform_factory(ax2.transData, ax2.transAxes)
-ax2.text(3.6, -0.17,
+ax2.text(3.6, -0.16,
          'Historical El Niño Episodes (2001–2025)\n[*2014 & 2015 indicate consecutive dry seasons of the extended 2014–2016 multi-year ENSO episode]',
-         ha='center', va='top', transform=blended_2, fontsize=9.0, fontweight='bold', color='#1E293B', linespacing=1.25)
-ax2.text(9.2, -0.17,
+         ha='center', va='top', transform=blended_2, fontsize=8.8, fontweight='bold', color='#1E293B', linespacing=1.2)
+ax2.text(9.2, -0.16,
          'Cohort Composites\n[Mean \u00b1 1 SEM]',
-         ha='center', va='top', transform=blended_2, fontsize=9.0, fontweight='bold', color='#1E293B', linespacing=1.25)
+         ha='center', va='top', transform=blended_2, fontsize=8.8, fontweight='bold', color='#1E293B', linespacing=1.2)
 
-# Main Title & Subtitle with proper breathing room
+# Main Title & Subtitle with proper tight spacing
 fig.suptitle('East Java Precipitation Anomalies Across Historical El Niño Episodes (2001–2025)',
-             fontsize=13.0, fontweight='bold', y=0.975)
-fig.text(0.50, 0.938, f'ENSO-Neutral Baseline Climatology (n = 6): JJA = {jja_clim:.0f} mm, SON = {son_clim:.0f} mm  |  Data: UCSB CHIRPS v2.0 (0.05\u00b0 resolution)',
+             fontsize=13.0, fontweight='bold', y=0.972)
+fig.text(0.50, 0.940, f'ENSO-Neutral Baseline Climatology (n = 6): JJA = {jja_clim:.0f} mm, SON = {son_clim:.0f} mm  |  Data: UCSB CHIRPS v2.0 (0.05\u00b0 resolution)',
          ha='center', fontsize=9.0, color='#475569')
+
+# Explanatory footer box matching the exact width of the plot frame (Two-Column Grid)
+pos2 = ax2.get_position()
+box_x0 = pos2.x0
+box_w = pos2.width
+box_y0 = 0.012
+box_h = 0.058
+
+rect = FancyBboxPatch((box_x0, box_y0), box_w, box_h,
+                      boxstyle='round,pad=0.004,rounding_size=0.008',
+                      transform=fig.transFigure,
+                      fc='#F8FAFC', ec='#CBD5E1', lw=0.9, alpha=0.95, zorder=1)
+fig.patches.append(rect)
+
+# Subtle vertical divider between columns
+div_x = box_x0 + box_w * 0.495
+div_line = Line2D([div_x, div_x], [box_y0 + 0.007, box_y0 + box_h - 0.007],
+                  transform=fig.transFigure, color='#CBD5E1', lw=0.9, linestyle='-', zorder=2)
+fig.lines.append(div_line)
+
+# Left Column: Data Source, Classification, and Event Continuity
+col1_lines = [
+    "• Data Source: UCSB CHIRPS v2.0 (0.05° resolution blended precipitation archive).",
+    "• Forcing Criteria: Pure El Niño (NOAA ONI ≥ +0.5°C); Compound (+ BoM DMI ≥ +0.4°C).",
+    "• Temporal Continuity: *2014 & 2015 denote consecutive dry seasons of multi-year event."
+]
+
+# Right Column: Quantitative Baseline Reference, Relative %, and Statistical Rigor
+col2_lines = [
+    "• Neutral Baseline: 6 ENSO-neutral years (JJA = 161 mm ± 49 SEM, SON = 332 mm ± 74 SEM).",
+    "• Relative Departure: % loss = (Anomaly / Baseline) × 100%. Zero line (y = 0) = 100% normal.",
+    "• Statistical Rigor: Error bars ±1 SEM. Cohort diff p = 0.77 (n.s.); compound drives tail risk."
+]
+
+col1_x = box_x0 + 0.008
+col2_x = div_x + 0.012
+
+for i in range(3):
+    y_pos = box_y0 + box_h * (0.75 - i * 0.25)
+    fig.text(col1_x, y_pos, col1_lines[i], fontsize=8.0, color='#334155', va='center', zorder=2)
+    fig.text(col2_x, y_pos, col2_lines[i], fontsize=8.0, color='#334155', va='center', zorder=2)
 
 # Save high-resolution publication PNG and vector PDF using safe write
 def safe_savefig(target_path, **kwargs):
