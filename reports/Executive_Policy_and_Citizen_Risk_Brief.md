@@ -17,6 +17,7 @@
 2. [What Happened? — Apa yang Sebenarnya Terjadi Saat El Niño Melanda?](#2-what-happened--apa-yang-sebenarnya-terjadi-saat-el-niño-melanda)
 3. [Why Does It Matter? — Anatomi Penjalaran Krisis: Mengapa Ini Berbahaya?](#3-why-does-it-matter--anatomi-penjalaran-krisis-mengapa-ini-berbahaya)
 4. [Who Is Affected? — Siapa yang Paling Terancam? (Peringkat Kerentanan 39 Daerah)](#4-who-is-affected--siapa-yang-paling-terancam-peringkat-kerentanan-39-daerah)
+    - [4.1 Hierarchical Landscape Sensitivity: Analisis Mikro 582 Kecamatan se-Jawa Timur](#41-hierarchical-landscape-sensitivity-analisis-mikro-582-kecamatan-se-jawa-timur)
 5. [How Certain Are We? — Seberapa Pasti Temuan Ini dan Apa yang Belum Kita Ketahui?](#5-how-certain-are-we--seberapa-pasti-temuan-ini-dan-apa-yang-belum-kita-ketahui)
 6. [What Choices Exist? — Peta 4 Zona Pilihan Kebijakan](#6-what-choices-exist--peta-4-zona-pilihan-kebijakan)
 7. [What Can Government Do? — Mandat Operasional untuk Pemerintah Daerah](#7-what-can-government-do--mandat-operasional-untuk-pemerintah-daerah)
@@ -114,6 +115,67 @@ Kerentanan pangan bukan hanya soal seberapa panas suhunya, melainkan **pertemuan
 
 ---
 
+### 4.1 Hierarchical Landscape Sensitivity: Analisis Mikro 582 Kecamatan se-Jawa Timur
+
+Meskipun analisis tingkat kabupaten memberikan panduan makro yang kuat bagi alokasi APBD, **agregasi administratif tingkat kabupaten rentan mengaburkan realitas lapangan (*ecological fallacy*)**. Dalam satu kabupaten yang sama, dapat terjadi jurang perbedaan kerentanan yang ekstrem antara kawasan lereng gunung yang sejuk dengan lembah cekungan aluvial yang membara. 
+
+Untuk mengatasi kelemahan ini dan memberikan presisi intervensi operasional bagi BPBD, Balai Penyuluhan Pertanian (BPP), dan pengelola irigasi P3A/HIPPA, kami melakukan **analisis hierarkis (Hierarchical Landscape Sensitivity Index / H-LSI)** berbasis data grid satelit 1 km² yang ditumpangsusunkan dengan batas resmi **582 kecamatan di 38 Kabupaten/Kota se-Jawa Timur**.
+
+```
++----------------------------------------------------------------------------------------------------+
+| FIGURE: HIERARCHICAL LANDSCAPE SENSITIVITY INDEX (H-LSI) 582 KECAMATAN SE-JAWA TIMUR              |
++----------------------------------------------------------------------------------------------------+
+```
+![Peta Hierarchical Landscape Sensitivity Index (H-LSI) 582 Kecamatan di Jawa Timur](../outputs/m5_hierarchical_lsi_kecamatan.png)
+
+*Gambar 2: Analisis Hierarkis Kerentanan Lanskap Mikro (H-LSI) 582 Kecamatan di Jawa Timur. (A) Peta koropleth spasial rata-rata skor LSI per kecamatan di daratan utama Jawa Timur dan Pulau Madura. (B) Peringkat 10 Kecamatan paling kritis (Top Hotspots) vs 5 Kecamatan paling tangguh (Resilient Buffers). (C) Disparitas risiko iklim internal (Intra-Regency Disparity) pada 10 kabupaten dengan variasi internal tertinggi (rentang min-mean-max LSI). (D) Distribusi proporsi 4 kategori risiko kecamatan se-Jawa Timur.*
+
+#### A. Tabel Peringkat Hotspot Ekstrem & Wilayah Penyangga Alami
+
+Dari 582 kecamatan yang dianalisis, berikut adalah 10 kecamatan dengan tingkat kerentanan mutlak tertinggi se-Jawa Timur beserta 5 kecamatan paling tangguh yang berfungsi sebagai zona penyangga ekologis:
+
+##### Tabel 1.1: 10 Kecamatan Paling Rentan (*Extreme Hotspots*) & 5 Kecamatan Paling Tangguh (*Resilient Buffers*)
+
+| No | Kabupaten | Kecamatan | Rata-rata LSI | Area Kritis ($\ge 0.75$) | Peringkat Internal Kab | Kategori Risiko | Profil Ekologis & Dampak Lapangan |
+|:---:|:---|:---|:---:|:---:|:---:|:---|:---|
+| **1** | **Bondowoso** | **Pujer** | **0.984** | **100.0%** | 1 / 23 | Extreme Priority (Tier 1) | Cekungan terkurung (*intermontane basin*) tanpa angin laut, tanah lempung kering merekah total. |
+| **2** | **Bondowoso** | **Tenggarang** | **0.979** | **100.0%** | 2 / 23 | Extreme Priority (Tier 1) | Dataran aluvial intensif padi; 100% piksel terdeteksi berstatus dehidrasi kritis permanen. |
+| **3** | **Bondowoso** | **Bondowoso (Kota)** | **0.965** | **95.0%** | 3 / 23 | Extreme Priority (Tier 1) | Urban heat island bercampur lahan pertanian pinggiran; krisis air tanah dangkal parah. |
+| **4** | **Bondowoso** | **Tapen** | **0.952** | **93.9%** | 4 / 23 | Extreme Priority (Tier 1) | Koridor lembah kering penghubung Situbondo; evapotranspirasi ekstrem melumpuhkan sawah. |
+| **5** | **Bondowoso** | **Wonosari** | **0.936** | **97.2%** | 5 / 23 | Extreme Priority (Tier 1) | Sentra tembakau & palawija; cadangan air tanah anjlok drastis sejak awal kemarau. |
+| **6** | **Lamongan** | **Blubuk** | **0.885** | **90.4%** | 1 / 27 | Extreme Priority (Tier 1) | Ujung hilir rawa lebak Bengawan Solo; krisis pasokan air tawar saat pintu hulu ditutup. |
+| **7** | **Lamongan** | **Sambeng** | **0.878** | **94.9%** | 2 / 27 | Extreme Priority (Tier 1) | Kawasan perbukitan kapur selatan Lamongan; ketiadaan irigasi teknis memicu puso massal. |
+| **8** | **Ngawi** | **Geneng** | **0.872** | **80.4%** | 1 / 19 | Extreme Priority (Tier 1) | Lembah Madiun bagian utara; pemanasan daratan ekstrem akibat anomali LST $> +2.2^\circ\text{C}$. |
+| **9** | **Bojonegoro** | **Baureno** | **0.867** | **78.5%** | 1 / 28 | Extreme Priority (Tier 1) | Perbatasan timur Bojonegoro; ketergantungan mutlak pada air suplesi Bengawan Solo. |
+| **10** | **Jombang** | **Mojoagung** | **0.863** | **83.6%** | 1 / 21 | Extreme Priority (Tier 1) | Kawasan hilir Brantas Jombang; persaingan debit air irigasi dengan sektor non-pertanian. |
+| ... | ... | ... | ... | ... | ... | ... | *(567 Kecamatan lainnya tertera pada dataset master)* |
+| **578** | **Lumajang** | **Pronojiwo** | **0.232** | **0.0%** | 21 / 21 | High Resilience (Buffer) | Lereng selatan Gunung Semeru; tutupan vegetasi hutan lebat menahan kelembaban mikro. |
+| **579** | **Trenggalek** | **Watulimo** | **0.211** | **1.6%** | 13 / 14 | High Resilience (Buffer) | Kawasan karst pesisir selatan berhutan; dipayungi orografi maritim Samudera Hindia. |
+| **580** | **Trenggalek** | **Munjungan** | **0.206** | **0.7%** | 14 / 14 | High Resilience (Buffer) | Lembah teluk berdinding pegunungan; suplai kelembaban udara laut tropis konsisten. |
+| **581** | **Lumajang** | **Senduro** | **0.206** | **0.9%** | 20 / 21 | High Resilience (Buffer) | Kawasan lereng timur Semeru; koridor agrosilvopastura dan mata air vulkanik abadi. |
+| **582** | **Lumajang** | **Gucialit** | **0.132** | **0.0%** | 19 / 21 | High Resilience (Buffer) | Perkebunan teh pegunungan Bromo-Tengger-Semeru; indeks sensitivitas terendah di Jatim. |
+
+*(Dataset lengkap statistik spasial 582 kecamatan dapat diunduh pada file: [outputs/m5_hierarchical_lsi_kecamatan.csv](../outputs/m5_hierarchical_lsi_kecamatan.csv))*
+
+#### B. Tiga Wawasan Kunci untuk Efektivitas Kebijakan Lapangan
+
+1. **Klaster Cekungan Terisolasi: Mengapa Bondowoso Mendominasi Top 5?**  
+   Secara ranking kabupaten, Bondowoso tidak menempati posisi teratas karena fraksi lahan sawah irigasi teknisnya lebih kecil dibandingkan Lamongan. Namun, **secara biofisik lanskap absolut, cekungan tengah Bondowoso (Pujer, Tenggarang, Kota, Tapen, Wonosari) adalah episentrum pemanasan dan pengeringan terparah di seluruh Jawa Timur**. Cekungan ini terkurung di antara kompleks Pegunungan Hyang (Argopuro) di barat dan Kaldera Ijen di timur, menciptakan fenomena *rain shadow* dan pemanasan adiabatik yang mengeringkan vegetasi kanopi hingga 100% luas kecamatan.
+
+2. **Paradoks Kesenjangan Internal (*Intra-Regency Disparity*): Mengapa Kebijakan Rata-Rata Gagal?**  
+   Analisis grafik *dumbbell* (Gambar 2C) membuktikan bahwa kabupaten di Jawa Timur memiliki kontras mikroklimat internal yang sangat tajam:
+   - **Kabupaten Bondowoso memiliki disparitas internal terlebar di Jawa Timur ($\Delta = 0.576$)**, di mana Kecamatan Ijen di dataran tinggi memiliki LSI rendah (0.408), sedangkan Kecamatan Pujer di dasar lembah melonjak hingga 0.984.
+   - **Kabupaten Mojokerto ($\Delta = 0.503$)**, **Trenggalek ($\Delta = 0.489$)**, **Lumajang ($\Delta = 0.484$)**, dan **Lamongan ($\Delta = 0.448$)** juga memperlihatkan jurang kerentanan yang masif antara wilayah hulu/pegunungan dan hilir/aluvial.
+   - **Konsekuensi Kebijakan:** Kebijakan bantuan bencana yang membagi kuota droping air bersih dan pompa secara rata ke seluruh kecamatan adalah kekeliruan fatal. Alokasi wajib ditargetkan secara asimetris ke kecamatan dengan **skor z-score relatif tinggi ($Z_{\text{intra}} > +1.5$)** di masing-masing kabupaten.
+
+3. **Komposisi 4 Tingkat Prioritas Kecamatan se-Jawa Timur (n = 582):**  
+   - **Extreme Priority / Tier 1 (43 Kecamatan, 7.4%):** Wilayah darurat bencana yang mengalami pemanasan brutal dan pengeringan kanopi parah di $>75\%$ luas wilayahnya. Wajib diterapkan penghentian total padi MT-III, proteksi mata air, dan droping tangki air bersih.
+   - **High Priority / Tier 2 (140 Kecamatan, 24.1%):** Wilayah rentan tinggi yang membutuhkan penjadwalan gilir air ketat oleh P3A/HIPPA dan percepatan benih palawija berumur genjah.
+   - **Moderate Sensitivity / Tier 3 (307 Kecamatan, 52.7%):** Wilayah mayoritas Jawa Timur dengan tingkat sensitivitas sedang; memerlukan irigasi berselang (*intermittent*) dan perlindungan sumur pantek.
+   - **High Resilience / Buffer Zone (92 Kecamatan, 15.8%):** Kawasan penyangga ekologis di lereng selatan dan pegunungan vulkanik; wajib dilindungi dengan moratorium alih fungsi hutan guna menjaga debit mata air abadi bagi wilayah hilir.
+
+---
+
 ## 5. How Certain Are We? — Seberapa Pasti Temuan Ini dan Apa yang Belum Kita Ketahui?
 
 Sebagai translator kebijakan berbasis bukti, kami wajib menyajikan data secara jujur tanpa kepastian palsu (*false certainty*):
@@ -125,7 +187,7 @@ Sebagai translator kebijakan berbasis bukti, kami wajib menyajikan data secara j
 ```
 ![Bukti Validasi Multi-Satelit dan Data Lapangan](../outputs/m7_validation_uncertainty.png)
 
-*Gambar 2: (A) Uji silang curah hujan satelit inframerah CHIRPS vs Radar NASA GPM (keselarasan 83.1%). (B) Uji konsistensi anomali vegetasi MODIS NDVI vs EVI (keselarasan 87.2%). (C) Sebaran variabilitas ketidakpastian antar 8 episode El Niño. (D) Validasi keselarasan model dengan data empiris puso sawah padi BPS Jawa Timur (rho = 0.700).*
+*Gambar 3: (A) Uji silang curah hujan satelit inframerah CHIRPS vs Radar NASA GPM (keselarasan 83.1%). (B) Uji konsistensi anomali vegetasi MODIS NDVI vs EVI (keselarasan 87.2%). (C) Sebaran variabilitas ketidakpastian antar 8 episode El Niño. (D) Validasi keselarasan model dengan data empiris puso sawah padi BPS Jawa Timur (rho = 0.700).*
 
 ### A. Yang Kita Ketahui Secara Pasti (Evidence-Based Facts):
 1. **Pola Spasialnya Deterministik (Sangat Pasti):**  

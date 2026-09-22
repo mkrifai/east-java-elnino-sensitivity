@@ -28,7 +28,7 @@ Cross-correlation analysis between early dry-season onset rainfall ($P_{JJA}$) a
    Dominates deep volcanic andosols/latosols on the flanks of Mt. Semeru, Arjuno-Welirang, and Ijen, as well as irrigated command perimeters in the Brantas valley. In these landscapes, peak vegetation collapse in October–November is governed by the cumulative severity of early rainfall deficits dating back to June–July ($P_{JJA}$), reflecting significant hydrologic buffering and groundwater inertia.
 
 ![Milestone 5 Landscape Sensitivity](../outputs/m5_landscape_sensitivity.png)
-*Figure 1: (Left) Continuous Landscape Sensitivity Index (LSI: 0.0 to 1.0) synthesized from normalized physical and vegetative stress anomalies. (Right) Spatial distribution and profile of the 5 distinct Landscape Response Regimes delineated via unsupervised Weka k-Means clustering.*
+*Figure 1: Comprehensive 3-panel Landscape Sensitivity Atlas & Regimes Plate. (a) Spatial distribution of 5 Landscape Response Regimes partitioned across 582 sub-districts (kecamatan). (b) Hierarchical Landscape Sensitivity Ranking (LSI) from Buffered Highlands (R1) to Hyper-Sensitive Karst (R5). (c) Multi-dimensional Landscape Response Signatures (LRS) across 5 regimes with within-cluster \u00b11 SD spatial error bars and standardized stress thresholds.*
 
 ### 1.3 Unsupervised Machine Learning Clustering: 5 Distinct Sensitivity Regimes (Phase 8)
 
@@ -54,6 +54,29 @@ Using an unsupervised machine learning clustering architecture (Weka $k$-Means, 
 
 * **Empirical Validation**: Machine learning clustering successfully separated East Java into five statistically distinct, contiguous spatial regimes that mirror elevation gradients, soil hydro-physics, and water infrastructure boundaries with zero human pre-classification.
 * **Conclusion**: **Hypothesis H2 is unequivocally validated**.
+
+### 1.4 Hierarchical Administrative Downscaling: 582 Sub-Districts (Kecamatan)
+
+To bridge the gap between continuous 1 km physical raster fields and operational governance units, the Landscape Sensitivity Index (LSI) was downscaled across all **582 sub-districts (kecamatan)** in East Java's 38 regencies/cities using zonal statistics on the official administrative boundaries (`outputs/m5_hierarchical_lsi_kecamatan.csv`).
+
+![Milestone 5 Hierarchical Kecamatan LSI](../outputs/m5_hierarchical_lsi_kecamatan.png)
+*Figure 2: Multi-panel Hierarchical Landscape Sensitivity Index (H-LSI) across 582 Kecamatan in East Java. (A) Choropleth map of mean LSI across mainland East Java and Madura. (B) Top 10 critical hotspot kecamatan versus Top 5 resilient ecological buffers. (C) Intra-regency climate risk disparity (dumbbell plot of min-mean-max range across the 10 highest-variance regencies). (D) Provincial distribution of the four risk classification tiers.*
+
+#### Key Hierarchical Findings:
+1. **The Intermontane Hotspot Cluster (Bondowoso Basin)**: While regency-level aggregations place Lamongan and Bojonegoro as the top agricultural priorities due to their massive rice area, **at the sub-district level, the absolute highest physical sensitivity in East Java is concentrated in the enclosed intermontane basin of Bondowoso**:
+   - **Pujer** (Mean LSI = 0.984, 100% Critical Area $\ge 0.75$)
+   - **Tenggarang** (Mean LSI = 0.979, 100% Critical Area)
+   - **Bondowoso Kota** (Mean LSI = 0.965, 95.0% Critical Area)
+   - **Tapen** (Mean LSI = 0.952, 93.9% Critical Area)
+   - **Wonosari** (Mean LSI = 0.936, 97.2% Critical Area)
+   This basin is shielded by the Ijen and Hyang volcanic massifs, inducing severe adiabatic heating and rain-shadow desiccation.
+2. **Extreme Intra-Regency Disparity ($\Delta LSI$)**:
+   Treating regencies as homogeneous entities introduces severe aggregation bias (*ecological fallacy*). **Bondowoso exhibits the widest internal disparity in East Java ($\Delta = 0.576$)**, ranging from buffered mountain highlands in Ijen ($LSI = 0.408$) to the hyper-arid Pujer basin ($LSI = 0.984$). Similar sharp internal divides exist in **Mojokerto** ($\Delta = 0.503$), **Trenggalek** ($\Delta = 0.489$), **Lumajang** ($\Delta = 0.484$), and **Lamongan** ($\Delta = 0.448$).
+3. **Provincial Risk Tier Composition ($n = 582$)**:
+   - **Tier 1 — Extreme Priority**: 43 kecamatan (7.4%) — widespread canopy collapse and extreme thermal stress.
+   - **Tier 2 — High Priority**: 140 kecamatan (24.1%) — high vulnerability requiring strict rotational water rationing.
+   - **Tier 3 — Moderate Sensitivity**: 307 kecamatan (52.7%) — intermittent irrigation and shallow aquifer preservation.
+   - **Tier 4 — Resilient Buffers**: 92 kecamatan (15.8%) — high-elevation forest and coastal mountain refugia (e.g., Gucialit $0.132$, Senduro $0.206$, Watulimo $0.211$).
 
 ---
 

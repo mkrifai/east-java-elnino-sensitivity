@@ -1,0 +1,1 @@
+https://geoserver.jatimprov.go.id/geoserver/wms?service=WFS&version=1.0.0&request=GetFeature&typeName=batas_administrasi%3Aadministrasi_ar_kec_jatim&outputFormat=SHAPE-ZIP&srsName=EPSG%3A4326
