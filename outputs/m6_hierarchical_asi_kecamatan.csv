@@ -1,0 +1,583 @@
+id_kec,kabupaten,kecamatan,mean_lsi,crop_fraction,crop_density_pct,mean_asi,zone,zone_name,prov_rank
+3525040.0,Gresik,Balongpanggang,0.7517,0.9863,98.63,0.7414,1,Zone 1: Critical Emergency,1
+3524120.0,Lamongan,Tikung,0.7448,0.9655,96.55,0.7302,1,Zone 1: Critical Emergency,2
+3516170.0,Mojokerto,Damarblandong,0.8606,0.8205,82.05,0.7075,1,Zone 1: Critical Emergency,3
+3522080.0,Bojonegoro,Kepohbaru,0.8052,0.875,87.5,0.7034,1,Zone 1: Critical Emergency,4
+3524050.0,Lamongan,Kambangbahu,0.7068,0.9836,98.36,0.6947,1,Zone 1: Critical Emergency,5
+3511090.0,Bondowoso,Tenggarang,0.9787,0.6957,69.57,0.6743,1,Zone 1: Critical Emergency,6
+3524060.0,Lamongan,Sugio,0.7852,0.8472,84.72,0.6601,1,Zone 1: Critical Emergency,7
+3506180.0,Kediri,Pagu,0.7903,0.8197,81.97,0.6556,1,Zone 1: Critical Emergency,8
+3524080.0,Lamongan,Modo,0.8101,0.8228,82.28,0.6556,1,Zone 1: Critical Emergency,9
+3524100.0,Lamongan,Sukodadi,0.6751,0.9545,95.45,0.6414,1,Zone 1: Critical Emergency,10
+3506150.0,Kediri,Plemahan,0.8127,0.7708,77.08,0.6235,1,Zone 1: Critical Emergency,11
+3519120.0,Madiun,Balerejo,0.7823,0.8113,81.13,0.62,1,Zone 1: Critical Emergency,12
+3522100.0,Bojonegoro,Kanor,0.7296,0.8235,82.35,0.619,1,Zone 1: Critical Emergency,13
+3506170.0,Kediri,Papar,0.8049,0.7619,76.19,0.6131,1,Zone 1: Critical Emergency,14
+3525050.0,Gresik,Benjeng,0.6736,0.9057,90.57,0.611,1,Zone 1: Critical Emergency,15
+3517050.0,Jombang,Ngoro,0.7111,0.8491,84.91,0.602,1,Zone 1: Critical Emergency,16
+3519140.0,Madiun,Sawahan,0.6381,0.9286,92.86,0.5977,1,Zone 1: Critical Emergency,17
+3522090.0,Bojonegoro,Baureno,0.8671,0.6835,68.35,0.5969,1,Zone 1: Critical Emergency,18
+3517060.0,Jombang,Mojowarno,0.7373,0.8219,82.19,0.5944,1,Zone 1: Critical Emergency,19
+3521050.0,Ngawi,Geneng,0.8721,0.6739,67.39,0.5944,1,Zone 1: Critical Emergency,20
+3524130.0,Lamongan,Deket,0.593,0.9111,91.11,0.593,3,Zone 3: Rain-Shadow & Fodder,21
+3524101.0,Lamongan,Pucuk,0.6716,0.8636,86.36,0.5855,1,Zone 1: Critical Emergency,22
+3517100.0,Jombang,Sumobito,0.8386,0.7,70.0,0.5844,1,Zone 1: Critical Emergency,23
+3506160.0,Kediri,Purwoasri,0.7446,0.7797,77.97,0.5763,1,Zone 1: Critical Emergency,24
+3519010.0,Madiun,Kebonsari,0.7136,0.8,80.0,0.5752,1,Zone 1: Critical Emergency,25
+3520130.0,Magetan,Karangmojo,0.6919,0.8039,80.39,0.5626,1,Zone 1: Critical Emergency,26
+3522110.0,Bojonegoro,Sumberejo,0.7633,0.7391,73.91,0.5567,1,Zone 1: Critical Emergency,27
+3506140.0,Kediri,Kunjang,0.737,0.75,75.0,0.551,1,Zone 1: Critical Emergency,28
+3525030.0,Gresik,Kedamean,0.6779,0.806,80.6,0.5508,1,Zone 1: Critical Emergency,29
+3517120.0,Jombang,Peterongan,0.7679,0.7143,71.43,0.5494,1,Zone 1: Critical Emergency,30
+3524010.0,Lamongan,Blubuk,0.8852,0.6154,61.54,0.5337,1,Zone 1: Critical Emergency,31
+3523090.0,Tuban,Plumpang,0.7571,0.6628,66.28,0.5318,1,Zone 1: Critical Emergency,32
+3522170.0,Bojonegoro,Kalitidu,0.6853,0.7969,79.69,0.5317,1,Zone 1: Critical Emergency,33
+3524070.0,Lamongan,Kedungpring,0.7534,0.7179,71.79,0.5239,1,Zone 1: Critical Emergency,34
+3516070.0,Mojokerto,Kutorejo,0.6887,0.75,75.0,0.523,1,Zone 1: Critical Emergency,35
+3516090.0,Mojokerto,Bangsal,0.7328,0.7143,71.43,0.5218,1,Zone 1: Critical Emergency,36
+3522130.0,Bojonegoro,Kapas,0.7389,0.7024,70.24,0.5213,1,Zone 1: Critical Emergency,37
+3518130.0,Nganjuk,Sukomoro,0.6588,0.8,80.0,0.5201,1,Zone 1: Critical Emergency,38
+3521120.0,Ngawi,Paron,0.836,0.6263,62.63,0.5173,1,Zone 1: Critical Emergency,39
+3518110.0,Nganjuk,Baron,0.8276,0.5938,59.38,0.5063,1,Zone 1: Critical Emergency,40
+3511070.0,Bondowoso,Tapen,0.9525,0.5306,53.06,0.5058,1,Zone 1: Critical Emergency,41
+3521060.0,Ngawi,Kwadungan,0.683,0.75,75.0,0.5037,1,Zone 1: Critical Emergency,42
+3524040.0,Lamongan,Mantep,0.8145,0.6437,64.37,0.5036,1,Zone 1: Critical Emergency,43
+3521070.0,Ngawi,Pangkur,0.7064,0.7353,73.53,0.5016,1,Zone 1: Critical Emergency,44
+3509130.0,Jember,Balung,0.6874,0.7358,73.58,0.5013,1,Zone 1: Critical Emergency,45
+3523100.0,Tuban,Widang,0.6801,0.7094,70.94,0.4989,1,Zone 1: Critical Emergency,46
+3518060.0,Nganjuk,Tanjunganom,0.6777,0.7353,73.53,0.4962,1,Zone 1: Critical Emergency,47
+3518050.0,Nganjuk,Pace,0.6907,0.7174,71.74,0.496,1,Zone 1: Critical Emergency,48
+3524090.0,Lamongan,Babat,0.7791,0.6333,63.33,0.494,1,Zone 1: Critical Emergency,49
+3517160.0,Jombang,Kesamben,0.6413,0.7547,75.47,0.4899,1,Zone 1: Critical Emergency,50
+3511100.0,Bondowoso,Bondowoso,0.9646,0.5,50.0,0.4896,1,Zone 1: Critical Emergency,51
+3518090.0,Nganjuk,Kertosono,0.6912,0.7059,70.59,0.4878,1,Zone 1: Critical Emergency,52
+3509100.0,Jember,Janggawah,0.6612,0.75,75.0,0.4875,1,Zone 1: Critical Emergency,53
+3524020.0,Lamongan,Ngimbang,0.8305,0.5895,58.95,0.4853,1,Zone 1: Critical Emergency,54
+3517180.0,Jombang,Ploso,0.6073,0.7857,78.57,0.4853,1,Zone 1: Critical Emergency,55
+3524011.0,Lamongan,Sukorame,0.73,0.6806,68.06,0.4836,1,Zone 1: Critical Emergency,56
+3517110.0,Jombang,Jogoroto,0.8044,0.6,60.0,0.4825,1,Zone 1: Critical Emergency,57
+3518080.0,Nganjuk,Ngronggot,0.7475,0.6346,63.46,0.4803,1,Zone 1: Critical Emergency,58
+3524190.0,Lamongan,Sekaran,0.5625,0.8571,85.71,0.4738,3,Zone 3: Rain-Shadow & Fodder,59
+3522150.0,Bojonegoro,Dander,0.7891,0.6154,61.54,0.4732,1,Zone 1: Critical Emergency,60
+3518100.0,Nganjuk,Patianrowo,0.5676,0.8529,85.29,0.4731,3,Zone 3: Rain-Shadow & Fodder,61
+3521130.0,Ngawi,Kedungalar,0.8327,0.5732,57.32,0.4721,1,Zone 1: Critical Emergency,62
+3516100.0,Mojokerto,Dlanggu,0.6913,0.675,67.5,0.4666,1,Zone 1: Critical Emergency,63
+3517010.0,Jombang,Bandar Kedungmulyo,0.6487,0.7073,70.73,0.4662,1,Zone 1: Critical Emergency,64
+3516160.0,Mojokerto,Jetis,0.8238,0.5574,55.74,0.4647,1,Zone 1: Critical Emergency,65
+3524200.0,Lamongan,Laren,0.6256,0.7582,75.82,0.462,1,Zone 1: Critical Emergency,66
+3518070.0,Nganjuk,Prambon,0.5469,0.8511,85.11,0.4603,3,Zone 3: Rain-Shadow & Fodder,67
+3511080.0,Bondowoso,Wonosari,0.9359,0.5,50.0,0.4575,1,Zone 1: Critical Emergency,68
+3517140.0,Jombang,Megaluh,0.5808,0.7895,78.95,0.4531,3,Zone 3: Rain-Shadow & Fodder,69
+3524140.0,Lamongan,Glagah,0.4592,0.918,91.8,0.4516,3,Zone 3: Rain-Shadow & Fodder,70
+3517090.0,Jombang,Mojoagung,0.8633,0.5091,50.91,0.449,1,Zone 1: Critical Emergency,71
+3522120.0,Bojonegoro,Balen,0.6032,0.7647,76.47,0.4489,1,Zone 1: Critical Emergency,72
+3525070.0,Gresik,Cerme,0.5746,0.7568,75.68,0.447,3,Zone 3: Rain-Shadow & Fodder,73
+3571030.0,Kota Kediri,Pesantren,0.6102,0.7273,72.73,0.4448,1,Zone 1: Critical Emergency,74
+3524180.0,Lamongan,Karanggeneng,0.5592,0.8286,82.86,0.4444,3,Zone 3: Rain-Shadow & Fodder,75
+3522190.0,Bojonegoro,Purwosari,0.7882,0.5667,56.67,0.4438,1,Zone 1: Critical Emergency,76
+3525140.0,Gresik,Dukun,0.5875,0.75,75.0,0.4433,3,Zone 3: Rain-Shadow & Fodder,77
+3525080.0,Gresik,Duduksampean,0.5533,0.407,40.7,0.4407,3,Zone 3: Rain-Shadow & Fodder,78
+3520040.0,Magetan,Takeran,0.6426,0.6863,68.63,0.4389,1,Zone 1: Critical Emergency,79
+3525010.0,Gresik,Wringinanom,0.6695,0.661,66.1,0.4363,1,Zone 1: Critical Emergency,80
+3528030.0,Pamekasan,Galis,0.7646,0.375,37.5,0.4347,1,Zone 1: Critical Emergency,81
+3517030.0,Jombang,Gudo,0.5386,0.8387,83.87,0.43,3,Zone 3: Rain-Shadow & Fodder,82
+3502100.0,Ponorogo,Jetis,0.6747,0.6286,62.86,0.4276,1,Zone 1: Critical Emergency,83
+3511030.0,Bondowoso,Tamanan,0.8355,0.4906,49.06,0.4263,1,Zone 1: Critical Emergency,84
+3524160.0,Lamongan,Kalitengah,0.5869,0.7179,71.79,0.4251,3,Zone 3: Rain-Shadow & Fodder,85
+3517040.0,Jombang,Diwek,0.59,0.7347,73.47,0.4209,3,Zone 3: Rain-Shadow & Fodder,86
+3522180.0,Bojonegoro,Malo,0.837,0.5205,52.05,0.4196,1,Zone 1: Critical Emergency,87
+3514080.0,Pasuruan,Wonorejo,0.5744,0.7436,74.36,0.4143,3,Zone 3: Rain-Shadow & Fodder,88
+3516140.0,Mojokerto,Gedek,0.632,0.6296,62.96,0.4141,1,Zone 1: Critical Emergency,89
+3518120.0,Nganjuk,Gondang,0.7203,0.573,57.3,0.4093,1,Zone 1: Critical Emergency,90
+3520030.0,Magetan,Lembeyan,0.6041,0.6552,65.52,0.4089,1,Zone 1: Critical Emergency,91
+3521110.0,Ngawi,Ngawi,0.7426,0.5342,53.42,0.4038,1,Zone 1: Critical Emergency,92
+3528020.0,Pamekasan,Pademawu,0.6807,0.5672,56.72,0.4035,1,Zone 1: Critical Emergency,93
+3522160.0,Bojonegoro,Ngasem,0.8517,0.4863,48.63,0.4033,1,Zone 1: Critical Emergency,94
+3520110.0,Magetan,Maospati,0.5765,0.6944,69.44,0.4016,3,Zone 3: Rain-Shadow & Fodder,95
+3517020.0,Jombang,Perak,0.5937,0.697,69.7,0.3988,3,Zone 3: Rain-Shadow & Fodder,96
+3523150.0,Tuban,Merakurak,0.6541,0.596,59.6,0.3973,1,Zone 1: Critical Emergency,97
+3516120.0,Mojokerto,Trowulan,0.771,0.5106,51.06,0.3968,1,Zone 1: Critical Emergency,98
+3508101.0,Lumajang,Rowokangkung,0.4504,0.8718,87.18,0.3964,3,Zone 3: Rain-Shadow & Fodder,99
+3508070.0,Lumajang,Tekung,0.5591,0.7143,71.43,0.3957,3,Zone 3: Rain-Shadow & Fodder,100
+3522070.0,Bojonegoro,Kedungadem,0.7737,0.5195,51.95,0.3948,1,Zone 1: Critical Emergency,101
+3516080.0,Mojokerto,Mojosari,0.7102,0.5806,58.06,0.3945,1,Zone 1: Critical Emergency,102
+3524150.0,Lamongan,Karangbinangun,0.4963,0.7551,75.51,0.3919,3,Zone 3: Rain-Shadow & Fodder,103
+3511040.0,Bondowoso,Pujer,0.9838,0.3889,38.89,0.3797,1,Zone 1: Critical Emergency,104
+3524221.0,Lamongan,Solokuro,0.6187,0.6186,61.86,0.3785,1,Zone 1: Critical Emergency,105
+3502090.0,Ponorogo,Siman,0.6426,0.5909,59.09,0.377,1,Zone 1: Critical Emergency,106
+3527020.0,Sampang,Torjun,0.6096,0.5729,57.29,0.3758,1,Zone 1: Critical Emergency,107
+3518030.0,Nganjuk,Berbek,0.6963,0.5067,50.67,0.3749,1,Zone 1: Critical Emergency,108
+3514070.0,Pasuruan,Kejayang,0.6674,0.5571,55.71,0.3702,1,Zone 1: Critical Emergency,109
+3517070.0,Jombang,Bareng,0.7341,0.5161,51.61,0.3687,1,Zone 1: Critical Emergency,110
+3520060.0,Magetan,Magetan,0.5892,0.6222,62.22,0.3686,3,Zone 3: Rain-Shadow & Fodder,111
+3517150.0,Jombang,Tembelang,0.5091,0.7027,70.27,0.3683,3,Zone 3: Rain-Shadow & Fodder,112
+3515030.0,Sidoarjo,Krembung,0.5538,0.6765,67.65,0.3678,3,Zone 3: Rain-Shadow & Fodder,113
+3519090.0,Madiun,Pilangkenceng,0.7087,0.52,52.0,0.3669,1,Zone 1: Critical Emergency,114
+3525020.0,Gresik,Driyorejo,0.6447,0.5593,55.93,0.3649,1,Zone 1: Critical Emergency,115
+3523070.0,Tuban,Soko,0.727,0.5143,51.43,0.3637,1,Zone 1: Critical Emergency,116
+3525060.0,Gresik,Menganti,0.5942,0.5909,59.09,0.3636,3,Zone 3: Rain-Shadow & Fodder,117
+3516150.0,Mojokerto,Kemlagi,0.7535,0.5,50.0,0.3626,1,Zone 1: Critical Emergency,118
+3516060.0,Mojokerto,Pungging,0.5926,0.5952,59.52,0.3624,3,Zone 3: Rain-Shadow & Fodder,119
+3514240.0,Pasuruan,Nguling,0.4724,0.6833,68.33,0.3623,3,Zone 3: Rain-Shadow & Fodder,120
+3514170.0,Pasuruan,Kraton,0.5902,0.6,60.0,0.357,3,Zone 3: Rain-Shadow & Fodder,121
+3512030.0,Situbondo,Besuki,0.531,0.5185,51.85,0.3559,3,Zone 3: Rain-Shadow & Fodder,122
+3525120.0,Gresik,Bungah,0.5818,0.2857,28.57,0.3557,4,Zone 4: Ecological Catchment,123
+3512100.0,Situbondo,Panji,0.5943,0.6279,62.79,0.3552,3,Zone 3: Rain-Shadow & Fodder,124
+3513140.0,Probolinggo,Besuk,0.4789,0.7838,78.38,0.3543,3,Zone 3: Rain-Shadow & Fodder,125
+3502160.0,Ponorogo,Ponorogo,0.6481,0.56,56.0,0.3541,1,Zone 1: Critical Emergency,126
+3519150.0,Madiun,Jiwan,0.6704,0.5366,53.66,0.3514,1,Zone 1: Critical Emergency,127
+3506090.0,Kediri,Gurah,0.6987,0.4821,48.21,0.3512,1,Zone 1: Critical Emergency,128
+3505141.0,Blitar,Wonodadi,0.5129,0.7021,70.21,0.351,3,Zone 3: Rain-Shadow & Fodder,129
+3522200.0,Bojonegoro,Padangan,0.8376,0.4308,43.08,0.3493,1,Zone 1: Critical Emergency,130
+3506040.0,Kediri,Kraas,0.5909,0.5818,58.18,0.3486,3,Zone 3: Rain-Shadow & Fodder,131
+3502180.0,Ponorogo,Jenangan,0.6125,0.5821,58.21,0.3477,1,Zone 1: Critical Emergency,132
+3506030.0,Kediri,Ngadiluwih,0.581,0.5946,59.46,0.345,3,Zone 3: Rain-Shadow & Fodder,133
+3514200.0,Pasuruan,Rejoso,0.5235,0.6061,60.61,0.3446,3,Zone 3: Rain-Shadow & Fodder,134
+3519130.0,Madiun,Madiun,0.5804,0.6154,61.54,0.3438,3,Zone 3: Rain-Shadow & Fodder,135
+3528010.0,Pamekasan,Tlanakan,0.764,0.4262,42.62,0.3436,1,Zone 1: Critical Emergency,136
+3520100.0,Magetan,Bendo,0.6066,0.56,56.0,0.3433,1,Zone 1: Critical Emergency,137
+3527070.0,Sampang,Jrengik,0.5754,0.5857,58.57,0.3409,3,Zone 3: Rain-Shadow & Fodder,138
+3509120.0,Jember,Rambipuji,0.6119,0.5867,58.67,0.3406,1,Zone 1: Critical Emergency,139
+3506130.0,Kediri,Pare,0.6634,0.5217,52.17,0.3404,1,Zone 1: Critical Emergency,140
+3523170.0,Tuban,Tambakboyo,0.6245,0.6375,63.75,0.337,1,Zone 1: Critical Emergency,141
+3523030.0,Tuban,Senori,0.6009,0.6136,61.36,0.3362,1,Zone 1: Critical Emergency,142
+3518150.0,Nganjuk,Bagor,0.6938,0.449,44.9,0.336,1,Zone 1: Critical Emergency,143
+3506210.0,Kediri,Tarokan,0.6232,0.4815,48.15,0.3347,1,Zone 1: Critical Emergency,144
+3523190.0,Tuban,Bancar,0.5211,0.6643,66.43,0.3329,3,Zone 3: Rain-Shadow & Fodder,145
+3512070.0,Situbondo,Panarukan,0.5654,0.6234,62.34,0.3322,3,Zone 3: Rain-Shadow & Fodder,146
+3519020.0,Madiun,Geger,0.669,0.5135,51.35,0.3318,1,Zone 1: Critical Emergency,147
+3522141.0,Bojonegoro,Trucuk,0.7413,0.4545,45.45,0.3294,1,Zone 1: Critical Emergency,148
+3518140.0,Nganjuk,Nganjuk,0.7235,0.4545,45.45,0.3283,1,Zone 1: Critical Emergency,149
+3521080.0,Ngawi,Karangjati,0.6615,0.5185,51.85,0.3258,1,Zone 1: Critical Emergency,150
+3528060.0,Pamekasan,Proppo,0.7481,0.4156,41.56,0.3227,1,Zone 1: Critical Emergency,151
+3512090.0,Situbondo,Mangaran,0.5511,0.775,77.5,0.3225,3,Zone 3: Rain-Shadow & Fodder,152
+3512130.0,Situbondo,Jangkar,0.7938,0.5362,53.62,0.3217,1,Zone 1: Critical Emergency,153
+3524170.0,Lamongan,Turi,0.4367,0.913,91.3,0.32,3,Zone 3: Rain-Shadow & Fodder,154
+3522010.0,Bojonegoro,Ngraho,0.7944,0.4074,40.74,0.3177,1,Zone 1: Critical Emergency,155
+3513160.0,Probolinggo,Krejengan,0.4486,0.6875,68.75,0.3168,3,Zone 3: Rain-Shadow & Fodder,156
+3577030.0,Kota Madiun,Kartoharjo,0.6294,0.4545,45.45,0.3164,1,Zone 1: Critical Emergency,157
+3577010.0,Kota Madiun,Mangunharjo,0.7214,0.4,40.0,0.3164,1,Zone 1: Critical Emergency,158
+3526010.0,Bangkalan,Kamal,0.5987,0.3333,33.33,0.3131,3,Zone 3: Rain-Shadow & Fodder,159
+3515010.0,Sidoarjo,Tarik,0.4949,0.619,61.9,0.3127,3,Zone 3: Rain-Shadow & Fodder,160
+3523160.0,Tuban,Kerek,0.6773,0.4603,46.03,0.3118,1,Zone 1: Critical Emergency,161
+3513170.0,Probolinggo,Pajarakan,0.4177,0.6522,65.22,0.3109,3,Zone 3: Rain-Shadow & Fodder,162
+3520120.0,Magetan,Karangrejo,0.6171,0.5111,51.11,0.3098,1,Zone 1: Critical Emergency,163
+3523110.0,Tuban,Palang,0.597,0.5294,52.94,0.3085,3,Zone 3: Rain-Shadow & Fodder,164
+3521090.0,Ngawi,Bringin,0.7587,0.4,40.0,0.3064,1,Zone 1: Critical Emergency,165
+3506080.0,Kediri,Plosoklaten,0.5047,0.5914,59.14,0.3047,3,Zone 3: Rain-Shadow & Fodder,166
+3515050.0,Sidoarjo,Jabon,0.5614,0.2826,28.26,0.304,4,Zone 4: Ecological Catchment,167
+3505140.0,Blitar,Udanawu,0.6109,0.4902,49.02,0.3033,1,Zone 1: Critical Emergency,168
+3513230.0,Probolinggo,Tongas,0.4925,0.5618,56.18,0.3014,3,Zone 3: Rain-Shadow & Fodder,169
+3502120.0,Ponorogo,Kauman,0.5859,0.4921,49.21,0.3006,3,Zone 3: Rain-Shadow & Fodder,170
+3527010.0,Sampang,Sreseh,0.539,0.3553,35.53,0.3003,3,Zone 3: Rain-Shadow & Fodder,171
+3519110.0,Madiun,Wonoasri,0.6507,0.4474,44.74,0.299,1,Zone 1: Critical Emergency,172
+3506050.0,Kediri,Kendat,0.5747,0.5435,54.35,0.2989,3,Zone 3: Rain-Shadow & Fodder,173
+3517170.0,Jombang,Kudu,0.775,0.3867,38.67,0.2977,1,Zone 1: Critical Emergency,174
+3524030.0,Lamongan,Sambeng,0.8781,0.3427,34.27,0.2973,1,Zone 1: Critical Emergency,175
+3513150.0,Probolinggo,Kraksaan,0.4033,0.6,60.0,0.2968,3,Zone 3: Rain-Shadow & Fodder,176
+3515180.0,Sidoarjo,Balongbendo,0.5971,0.5263,52.63,0.2965,3,Zone 3: Rain-Shadow & Fodder,177
+3523020.0,Tuban,Bangilan,0.6262,0.4947,49.47,0.2963,1,Zone 1: Critical Emergency,178
+3506120.0,Kediri,Kandangan,0.717,0.3913,39.13,0.2956,1,Zone 1: Critical Emergency,179
+3520090.0,Magetan,Sukomoro,0.5654,0.5111,51.11,0.2913,3,Zone 3: Rain-Shadow & Fodder,180
+3515100.0,Sidoarjo,Sukodono,0.417,0.7083,70.83,0.2882,3,Zone 3: Rain-Shadow & Fodder,181
+3514110.0,Pasuruan,Sukorejo,0.6631,0.4561,45.61,0.2879,1,Zone 1: Critical Emergency,182
+3506190.0,Kediri,Gampengrejo,0.5126,0.5294,52.94,0.281,3,Zone 3: Rain-Shadow & Fodder,183
+3506060.0,Kediri,Wates,0.5748,0.5,50.0,0.2796,3,Zone 3: Rain-Shadow & Fodder,184
+3523050.0,Tuban,Montong,0.7496,0.3657,36.57,0.2791,1,Zone 1: Critical Emergency,185
+3509710.0,Kota Jember,Sumbersari,0.613,0.4062,40.62,0.2786,1,Zone 1: Critical Emergency,186
+3502150.0,Ponorogo,Sukorejo,0.4776,0.6061,60.61,0.2784,3,Zone 3: Rain-Shadow & Fodder,187
+3510130.0,Banyuwangi,Rogojampi,0.5493,0.507,50.7,0.278,3,Zone 3: Rain-Shadow & Fodder,188
+3516110.0,Mojokerto,Puri,0.6418,0.4483,44.83,0.2779,1,Zone 1: Critical Emergency,189
+3520050.0,Magetan,Kawedanan,0.5973,0.4464,44.64,0.2775,3,Zone 3: Rain-Shadow & Fodder,190
+3522060.0,Bojonegoro,Sugihwaras,0.7426,0.3723,37.23,0.2744,1,Zone 1: Critical Emergency,191
+3512110.0,Situbondo,Kapongan,0.6102,0.4773,47.73,0.2733,1,Zone 1: Critical Emergency,192
+3509010.0,Jember,Kencong,0.5232,0.4624,46.24,0.273,3,Zone 3: Rain-Shadow & Fodder,193
+3527030.0,Sampang,Sampang,0.5945,0.4198,41.98,0.2727,3,Zone 3: Rain-Shadow & Fodder,194
+3525150.0,Gresik,Panceng,0.6298,0.4262,42.62,0.2718,1,Zone 1: Critical Emergency,195
+3515020.0,Sidoarjo,Prambon,0.4199,0.6667,66.67,0.2714,3,Zone 3: Rain-Shadow & Fodder,196
+3527040.0,Sampang,Camplong,0.6796,0.3867,38.67,0.2702,1,Zone 1: Critical Emergency,197
+3523040.0,Tuban,Singgahan,0.648,0.4247,42.47,0.27,1,Zone 1: Critical Emergency,198
+3518160.0,Nganjuk,Wilangan,0.6766,0.4,40.0,0.2677,1,Zone 1: Critical Emergency,199
+3514180.0,Pasuruan,Pohjentrek,0.6438,0.4545,45.45,0.2673,1,Zone 1: Critical Emergency,200
+3515090.0,Sidoarjo,Wonoayu,0.4571,0.5714,57.14,0.2638,3,Zone 3: Rain-Shadow & Fodder,201
+3510120.0,Banyuwangi,Singojuruh,0.4927,0.541,54.1,0.2603,3,Zone 3: Rain-Shadow & Fodder,202
+3526120.0,Bangkalan,Burneh,0.608,0.4366,43.66,0.2598,1,Zone 1: Critical Emergency,203
+3515080.0,Sidoarjo,Tulangan,0.3992,0.6552,65.52,0.2585,3,Zone 3: Rain-Shadow & Fodder,204
+3519030.0,Madiun,Dolopo,0.7033,0.3667,36.67,0.257,1,Zone 1: Critical Emergency,205
+3521100.0,Ngawi,Padas,0.736,0.4023,40.23,0.257,1,Zone 1: Critical Emergency,206
+3510140.0,Banyuwangi,Kabat,0.6622,0.3973,39.73,0.2552,1,Zone 1: Critical Emergency,207
+3514220.0,Pasuruan,Grati,0.5465,0.44,44.0,0.2547,3,Zone 3: Rain-Shadow & Fodder,208
+3524210.0,Lamongan,Brondong,0.5929,0.4024,40.24,0.2541,3,Zone 3: Rain-Shadow & Fodder,209
+3509020.0,Jember,Gumukmas,0.5951,0.194,19.4,0.2522,4,Zone 4: Ecological Catchment,210
+3504110.0,Tulungagung,Boyolangu,0.5264,0.5,50.0,0.2522,3,Zone 3: Rain-Shadow & Fodder,211
+3509030.0,Jember,Puger,0.4818,0.5357,53.57,0.251,3,Zone 3: Rain-Shadow & Fodder,212
+3525130.0,Gresik,Sidayu,0.6838,0.2368,23.68,0.2502,2,Zone 2: Hydrologic Conveyance,213
+3510050.0,Banyuwangi,Muncar,0.5734,0.4219,42.19,0.2474,3,Zone 3: Rain-Shadow & Fodder,214
+3523080.0,Tuban,Rengel,0.7341,0.3942,39.42,0.2458,1,Zone 1: Critical Emergency,215
+3522140.0,Bojonegoro,Bojonegoro,0.5368,0.48,48.0,0.2448,3,Zone 3: Rain-Shadow & Fodder,216
+3514090.0,Pasuruan,Purwosari,0.7643,0.3279,32.79,0.2446,1,Zone 1: Critical Emergency,217
+3519100.0,Madiun,Mejayan,0.6751,0.3433,34.33,0.244,1,Zone 1: Critical Emergency,218
+3523060.0,Tuban,Parengan,0.7747,0.3182,31.82,0.2403,1,Zone 1: Critical Emergency,219
+3526030.0,Bangkalan,Kwanyar,0.5839,0.5,50.0,0.2396,3,Zone 3: Rain-Shadow & Fodder,220
+3502170.0,Ponorogo,Babadan,0.4906,0.58,58.0,0.2391,3,Zone 3: Rain-Shadow & Fodder,221
+3523140.0,Tuban,Jenu,0.5019,0.4835,48.35,0.2382,3,Zone 3: Rain-Shadow & Fodder,222
+3507160.0,Malang,Sumberpucung,0.6626,0.375,37.5,0.2377,1,Zone 1: Critical Emergency,223
+3508080.0,Lumajang,Kunir,0.5633,0.4583,45.83,0.2365,3,Zone 3: Rain-Shadow & Fodder,224
+3514140.0,Pasuruan,Beji,0.5954,0.3778,37.78,0.2343,3,Zone 3: Rain-Shadow & Fodder,225
+3510110.0,Banyuwangi,Srono,0.5502,0.3929,39.29,0.2289,3,Zone 3: Rain-Shadow & Fodder,226
+3504170.0,Tulungagung,Karangrejo,0.618,0.3889,38.89,0.2289,1,Zone 1: Critical Emergency,227
+3513200.0,Probolinggo,Dringu,0.3862,0.6154,61.54,0.2281,3,Zone 3: Rain-Shadow & Fodder,228
+3509040.0,Jember,Wuluhan,0.5314,0.2973,29.73,0.2277,4,Zone 4: Ecological Catchment,229
+3518190.0,Nganjuk,Lengkong,0.6798,0.3333,33.33,0.2273,1,Zone 1: Critical Emergency,230
+3515170.0,Sidoarjo,Krian,0.4683,0.5,50.0,0.2267,3,Zone 3: Rain-Shadow & Fodder,231
+3517190.0,Jombang,Kabuh,0.7142,0.3438,34.38,0.2261,1,Zone 1: Critical Emergency,232
+3518170.0,Nganjuk,Rejoso,0.6575,0.3353,33.53,0.2258,1,Zone 1: Critical Emergency,233
+3526130.0,Bangkalan,Arosbaya,0.5785,0.4146,41.46,0.2234,3,Zone 3: Rain-Shadow & Fodder,234
+3509220.0,Jember,Sukowono,0.6789,0.3115,31.15,0.2226,1,Zone 1: Critical Emergency,235
+3508100.0,Lumajang,Jatiroto,0.5319,0.4038,40.38,0.2221,3,Zone 3: Rain-Shadow & Fodder,236
+3508060.0,Lumajang,Lumajang,0.5071,0.45,45.0,0.2213,3,Zone 3: Rain-Shadow & Fodder,237
+3529100.0,Sumenep,Guluk-guluk,0.6867,0.2985,29.85,0.2183,2,Zone 2: Hydrologic Conveyance,238
+3572010.0,Kota Blitar,Sukorejo,0.5952,0.2857,28.57,0.2166,4,Zone 4: Ecological Catchment,239
+3523180.0,Tuban,Jatirogo,0.5714,0.375,37.5,0.2158,3,Zone 3: Rain-Shadow & Fodder,240
+3514150.0,Pasuruan,Bangil,0.5577,0.2444,24.44,0.2156,4,Zone 4: Ecological Catchment,241
+3511160.0,Bondowoso,Cermee,0.6974,0.2874,28.74,0.2147,2,Zone 2: Hydrologic Conveyance,242
+3526050.0,Bangkalan,Blega,0.5895,0.3689,36.89,0.2144,3,Zone 3: Rain-Shadow & Fodder,243
+3516130.0,Mojokerto,Sooko,0.5561,0.381,38.1,0.2144,3,Zone 3: Rain-Shadow & Fodder,244
+3514210.0,Pasuruan,Winongan,0.6274,0.325,32.5,0.2124,1,Zone 1: Critical Emergency,245
+3508090.0,Lumajang,Yosowilangun,0.5671,0.5053,50.53,0.2121,3,Zone 3: Rain-Shadow & Fodder,246
+3507140.0,Malang,Gondang Legi,0.6883,0.3214,32.14,0.2111,1,Zone 1: Critical Emergency,247
+3506110.0,Kediri,Kepung,0.5712,0.3036,30.36,0.2102,3,Zone 3: Rain-Shadow & Fodder,248
+3504040.0,Tulungagung,Campur Darat,0.6174,0.3333,33.33,0.2102,1,Zone 1: Critical Emergency,249
+3522210.0,Bojonegoro,Kasiman,0.7825,0.2536,25.36,0.2097,2,Zone 2: Hydrologic Conveyance,250
+3513130.0,Probolinggo,Paiton,0.6254,0.4615,46.15,0.2096,1,Zone 1: Critical Emergency,251
+3509050.0,Jember,Ambulu,0.6379,0.3468,34.68,0.2096,1,Zone 1: Critical Emergency,252
+3514160.0,Pasuruan,Rembang,0.6129,0.3333,33.33,0.2094,1,Zone 1: Critical Emergency,253
+3518040.0,Nganjuk,Loceret,0.6016,0.3151,31.51,0.2069,1,Zone 1: Critical Emergency,254
+3523130.0,Tuban,Tuban,0.6652,0.3636,36.36,0.2054,1,Zone 1: Critical Emergency,255
+3512140.0,Situbondo,Asembagus,0.6539,0.3333,33.33,0.2036,1,Zone 1: Critical Emergency,256
+3515060.0,Sidoarjo,Tanggulangin,0.584,0.28,28.0,0.2033,4,Zone 4: Ecological Catchment,257
+3514120.0,Pasuruan,Pandaan,0.5578,0.3256,32.56,0.2022,3,Zone 3: Rain-Shadow & Fodder,258
+3504100.0,Tulungagung,Sumber Gempol,0.5785,0.4,40.0,0.2002,3,Zone 3: Rain-Shadow & Fodder,259
+3526110.0,Bangkalan,Bangkalan,0.442,0.2353,23.53,0.1983,4,Zone 4: Ecological Catchment,260
+3513120.0,Probolinggo,Kotanyar,0.5313,0.371,37.1,0.1974,3,Zone 3: Rain-Shadow & Fodder,261
+3522050.0,Bojonegoro,Temayang,0.6565,0.2897,28.97,0.1973,2,Zone 2: Hydrologic Conveyance,262
+3521150.0,Ngawi,Widodaren,0.8479,0.2212,22.12,0.1967,2,Zone 2: Hydrologic Conveyance,263
+3518200.0,Nganjuk,Jatikalen,0.709,0.2826,28.26,0.1939,2,Zone 2: Hydrologic Conveyance,264
+3521020.0,Ngawi,Ngrambe,0.7559,0.2464,24.64,0.1939,2,Zone 2: Hydrologic Conveyance,265
+3514190.0,Pasuruan,Gondang Wetan,0.6399,0.3077,30.77,0.1938,1,Zone 1: Critical Emergency,266
+3506100.0,Kediri,Puncu,0.5391,0.3824,38.24,0.193,3,Zone 3: Rain-Shadow & Fodder,267
+3523120.0,Tuban,Semanding,0.7079,0.2781,27.81,0.1924,2,Zone 2: Hydrologic Conveyance,268
+3509200.0,Jember,Pakusari,0.5928,0.3243,32.43,0.192,3,Zone 3: Rain-Shadow & Fodder,269
+3572020.0,Kota Blitar,Kepanjen Kidul,0.5774,0.3077,30.77,0.192,3,Zone 3: Rain-Shadow & Fodder,270
+3502110.0,Ponorogo,Balong,0.5317,0.3621,36.21,0.1895,3,Zone 3: Rain-Shadow & Fodder,271
+3504150.0,Tulungagung,Kedungwaru,0.5149,0.3529,35.29,0.1889,3,Zone 3: Rain-Shadow & Fodder,272
+3575010.0,Kota Pasuruan,Gadingrejo,0.5412,0.2857,28.57,0.1885,4,Zone 4: Ecological Catchment,273
+3526090.0,Bangkalan,Tragah,0.6113,0.3,30.0,0.1884,1,Zone 1: Critical Emergency,274
+3522020.0,Bojonegoro,Tambakrejo,0.7818,0.2415,24.15,0.1878,2,Zone 2: Hydrologic Conveyance,275
+3519050.0,Madiun,Wungu,0.655,0.3,30.0,0.1876,1,Zone 1: Critical Emergency,276
+3511020.0,Bondowoso,Grujugan,0.6483,0.2,20.0,0.1873,2,Zone 2: Hydrologic Conveyance,277
+3510070.0,Banyuwangi,Gambiran,0.5718,0.3284,32.84,0.1849,3,Zone 3: Rain-Shadow & Fodder,278
+3504120.0,Tulungagung,Gondang,0.5864,0.359,35.9,0.1839,3,Zone 3: Rain-Shadow & Fodder,279
+3513240.0,Probolinggo,Sumberasih,0.4323,0.5,50.0,0.1831,3,Zone 3: Rain-Shadow & Fodder,280
+3504030.0,Tulungagung,Pakel,0.3107,0.65,65.0,0.1823,3,Zone 3: Rain-Shadow & Fodder,281
+3522040.0,Bojonegoro,Bubulan,0.7056,0.2692,26.92,0.1818,2,Zone 2: Hydrologic Conveyance,282
+3519040.0,Madiun,Dagangan,0.6027,0.2706,27.06,0.1815,2,Zone 2: Hydrologic Conveyance,283
+3512080.0,Situbondo,Situbondo,0.6255,0.3226,32.26,0.181,1,Zone 1: Critical Emergency,284
+3514230.0,Pasuruan,Lekok,0.4931,0.2885,28.85,0.1801,4,Zone 4: Ecological Catchment,285
+3502030.0,Ponorogo,Bungkal,0.5496,0.3,30.0,0.1767,3,Zone 3: Rain-Shadow & Fodder,286
+3525160.0,Gresik,Ujungpangkah,0.6201,0.25,25.0,0.1767,2,Zone 2: Hydrologic Conveyance,287
+3506200.0,Kediri,Grogol,0.5615,0.2842,28.42,0.1756,4,Zone 4: Ecological Catchment,288
+3526100.0,Bangkalan,Socah,0.6013,0.2903,29.03,0.1751,2,Zone 2: Hydrologic Conveyance,289
+3510100.0,Banyuwangi,Genteng,0.3768,0.2903,29.03,0.1746,4,Zone 4: Ecological Catchment,290
+3512040.0,Situbondo,Suboh,0.6133,0.4444,44.44,0.1726,1,Zone 1: Critical Emergency,291
+3504130.0,Tulungagung,Kauman,0.6816,0.2593,25.93,0.1726,2,Zone 2: Hydrologic Conveyance,292
+3507150.0,Malang,Kepanjen,0.5599,0.3269,32.69,0.1716,3,Zone 3: Rain-Shadow & Fodder,293
+3521030.0,Ngawi,Jogorogo,0.6466,0.2353,23.53,0.1698,2,Zone 2: Hydrologic Conveyance,294
+3509080.0,Jember,Mayang,0.6894,0.2444,24.44,0.1686,2,Zone 2: Hydrologic Conveyance,295
+3519080.0,Madiun,Saradan,0.6406,0.2642,26.42,0.1673,2,Zone 2: Hydrologic Conveyance,296
+3509720.0,Kota Jember,Kaliwates,0.4632,0.3333,33.33,0.1654,3,Zone 3: Rain-Shadow & Fodder,297
+3515070.0,Sidoarjo,Candi,0.4529,0.3448,34.48,0.1651,3,Zone 3: Rain-Shadow & Fodder,298
+3504090.0,Tulungagung,Ngunut,0.6187,0.25,25.0,0.1641,2,Zone 2: Hydrologic Conveyance,299
+3574020.0,Kota Probolinggo,Wonoasih,0.358,0.4667,46.67,0.1623,3,Zone 3: Rain-Shadow & Fodder,300
+3505120.0,Blitar,Sanan Kulon,0.6047,0.24,24.0,0.1619,2,Zone 2: Hydrologic Conveyance,301
+3529070.0,Sumenep,Sumenep,0.5642,0.3115,31.15,0.1611,3,Zone 3: Rain-Shadow & Fodder,302
+3521160.0,Ngawi,Mantingan,0.7675,0.223,22.3,0.1609,2,Zone 2: Hydrologic Conveyance,303
+3507190.0,Malang,Pakisaji,0.5409,0.3415,34.15,0.159,3,Zone 3: Rain-Shadow & Fodder,304
+3514130.0,Pasuruan,Gempol,0.5605,0.2647,26.47,0.1582,4,Zone 4: Ecological Catchment,305
+3511050.0,Bondowoso,Tlogosari,0.7415,0.1604,16.04,0.158,2,Zone 2: Hydrologic Conveyance,306
+3518180.0,Nganjuk,Ngluyu,0.68,0.2347,23.47,0.158,2,Zone 2: Hydrologic Conveyance,307
+3510060.0,Banyuwangi,Cluring,0.6549,0.2545,25.45,0.1572,2,Zone 2: Hydrologic Conveyance,308
+3506070.0,Kediri,Ngancar,0.5121,0.32,32.0,0.1559,3,Zone 3: Rain-Shadow & Fodder,309
+3528090.0,Pamekasan,Pakong,0.6024,0.2581,25.81,0.1545,2,Zone 2: Hydrologic Conveyance,310
+3512120.0,Situbondo,Arjasa,0.5795,0.2698,26.98,0.154,4,Zone 4: Ecological Catchment,311
+3521040.0,Ngawi,Kendal,0.6588,0.2211,22.11,0.1536,2,Zone 2: Hydrologic Conveyance,312
+3503100.0,Trenggalek,Pogalan,0.6218,0.2553,25.53,0.1531,2,Zone 2: Hydrologic Conveyance,313
+3513210.0,Probolinggo,Wonomerto,0.3868,0.3469,34.69,0.1523,3,Zone 3: Rain-Shadow & Fodder,314
+3511010.0,Bondowoso,Maesan,0.6289,0.1829,18.29,0.1508,2,Zone 2: Hydrologic Conveyance,315
+3515040.0,Sidoarjo,Porong,0.5172,0.25,25.0,0.1507,4,Zone 4: Ecological Catchment,316
+3522030.0,Bojonegoro,Ngambon,0.6859,0.2139,21.39,0.1507,2,Zone 2: Hydrologic Conveyance,317
+3521010.0,Ngawi,Sine,0.6451,0.1959,19.59,0.1497,2,Zone 2: Hydrologic Conveyance,318
+3505100.0,Blitar,Kalingoro,0.422,0.3469,34.69,0.1476,3,Zone 3: Rain-Shadow & Fodder,319
+3524220.0,Lamongan,Paciran,0.6387,0.2368,23.68,0.1472,2,Zone 2: Hydrologic Conveyance,320
+3509210.0,Jember,Kalisat,0.6445,0.2414,24.14,0.1471,2,Zone 2: Hydrologic Conveyance,321
+3503110.0,Trenggalek,Trenggalek,0.6252,0.2258,22.58,0.1468,2,Zone 2: Hydrologic Conveyance,322
+3529080.0,Sumenep,Lenteng,0.6382,0.2388,23.88,0.1459,2,Zone 2: Hydrologic Conveyance,323
+3575030.0,Kota Pasuruan,Bugul Kidul,0.4008,0.3333,33.33,0.1445,3,Zone 3: Rain-Shadow & Fodder,324
+3504160.0,Tulungagung,Ngantru,0.6364,0.2667,26.67,0.1438,2,Zone 2: Hydrologic Conveyance,325
+3525090.0,Gresik,Kebomas,0.5794,0.2143,21.43,0.1429,4,Zone 4: Ecological Catchment,326
+3526080.0,Bangkalan,Tanahmerah,0.675,0.2121,21.21,0.1426,2,Zone 2: Hydrologic Conveyance,327
+3503080.0,Trenggalek,Gandusari,0.6949,0.1852,18.52,0.1426,2,Zone 2: Hydrologic Conveyance,328
+3529030.0,Sumenep,Saronggi,0.6425,0.1471,14.71,0.1387,2,Zone 2: Hydrologic Conveyance,329
+3529170.0,Sumenep,Gapura,0.5872,0.1918,19.18,0.1378,4,Zone 4: Ecological Catchment,330
+3502080.0,Ponorogo,Mlarak,0.6128,0.2,20.0,0.1376,2,Zone 2: Hydrologic Conveyance,331
+3504020.0,Tulungagung,Bandung,0.5228,0.2642,26.42,0.1368,4,Zone 4: Ecological Catchment,332
+3527120.0,Sampang,Sokobanah,0.5558,0.2418,24.18,0.1362,4,Zone 4: Ecological Catchment,333
+3517130.0,Jombang,Jombang,0.5307,0.2667,26.67,0.1354,4,Zone 4: Ecological Catchment,334
+3504070.0,Tulungagung,Kalidawir,0.5515,0.2119,21.19,0.1309,4,Zone 4: Ecological Catchment,335
+3574010.0,Kota Probolinggo,Kademangan,0.4011,0.3333,33.33,0.127,3,Zone 3: Rain-Shadow & Fodder,336
+3507120.0,Malang,Turen,0.4724,0.2588,25.88,0.1261,4,Zone 4: Ecological Catchment,337
+3526160.0,Bangkalan,Tanjungbumi,0.6517,0.1733,17.33,0.1223,2,Zone 2: Hydrologic Conveyance,338
+3520080.0,Magetan,Panekan,0.5657,0.2078,20.78,0.1214,4,Zone 4: Ecological Catchment,339
+3517200.0,Jombang,Plandaan,0.6794,0.1789,17.89,0.1195,2,Zone 2: Hydrologic Conveyance,340
+3528050.0,Pamekasan,Pamekasan,0.6941,0.2069,20.69,0.1173,2,Zone 2: Hydrologic Conveyance,341
+3516030.0,Mojokerto,Pacet,0.4294,0.2336,23.36,0.1145,4,Zone 4: Ecological Catchment,342
+3571010.0,Kota Kediri,Mojoroto,0.4684,0.2188,21.88,0.1139,4,Zone 4: Ecological Catchment,343
+3512150.0,Situbondo,Banyuputih,0.641,0.1701,17.01,0.1129,2,Zone 2: Hydrologic Conveyance,344
+3572030.0,Kota Blitar,Sunan Wetan,0.4439,0.1765,17.65,0.1108,4,Zone 4: Ecological Catchment,345
+3523010.0,Tuban,Kenduruan,0.6035,0.1842,18.42,0.1101,2,Zone 2: Hydrologic Conveyance,346
+3571020.0,Kota Kediri,Kota Kediri,0.4098,0.3333,33.33,0.1098,3,Zone 3: Rain-Shadow & Fodder,347
+3502040.0,Ponorogo,Sambit,0.5337,0.1552,15.52,0.1068,4,Zone 4: Ecological Catchment,348
+3516010.0,Mojokerto,Jatirejo,0.5457,0.1593,15.93,0.1059,4,Zone 4: Ecological Catchment,349
+3515160.0,Sidoarjo,Taman,0.391,0.2727,27.27,0.1047,4,Zone 4: Ecological Catchment,350
+3505130.0,Blitar,Srengat,0.5702,0.1837,18.37,0.1035,4,Zone 4: Ecological Catchment,351
+3511130.0,Bondowoso,Tegalampel,0.7172,0.1299,12.99,0.1012,2,Zone 2: Hydrologic Conveyance,352
+3529110.0,Sumenep,Pasongsongan,0.7101,0.1429,14.29,0.1008,2,Zone 2: Hydrologic Conveyance,353
+3529090.0,Sumenep,Ganding,0.6504,0.1489,14.89,0.0969,2,Zone 2: Hydrologic Conveyance,354
+3507200.0,Malang,Tajinan,0.6113,0.1591,15.91,0.0967,2,Zone 2: Hydrologic Conveyance,355
+3502070.0,Ponorogo,Pulung,0.4946,0.1736,17.36,0.0963,4,Zone 4: Ecological Catchment,356
+3516050.0,Mojokerto,Ngoro,0.586,0.1507,15.07,0.0961,4,Zone 4: Ecological Catchment,357
+3511150.0,Bondowoso,Prajekan,0.6964,0.1444,14.44,0.096,2,Zone 2: Hydrologic Conveyance,358
+3504080.0,Tulungagung,Rejotangan,0.5934,0.1781,17.81,0.095,4,Zone 4: Ecological Catchment,359
+3509170.0,Jember,Bangsalsari,0.3609,0.1276,12.76,0.0943,4,Zone 4: Ecological Catchment,360
+3520020.0,Magetan,Parang,0.678,0.1389,13.89,0.0943,2,Zone 2: Hydrologic Conveyance,361
+3503070.0,Trenggalek,Karangan,0.5886,0.1444,14.44,0.0942,4,Zone 4: Ecological Catchment,362
+3529060.0,Sumenep,Kalianget,0.5492,0.0833,8.33,0.0934,4,Zone 4: Ecological Catchment,363
+3511110.0,Bondowoso,Curahdami,0.6921,0.0976,9.76,0.093,2,Zone 2: Hydrologic Conveyance,364
+3576020.0,Kota Mojokerto,Mojokerto Timur,0.5946,0.1818,18.18,0.0929,4,Zone 4: Ecological Catchment,365
+3513180.0,Probolinggo,Maron,0.3531,0.359,35.9,0.092,3,Zone 3: Rain-Shadow & Fodder,366
+3527060.0,Sampang,Kedungdung,0.636,0.1452,14.52,0.0917,2,Zone 2: Hydrologic Conveyance,367
+3513110.0,Probolinggo,Pakuniran,0.4997,0.1475,14.75,0.0915,4,Zone 4: Ecological Catchment,368
+3529120.0,Sumenep,Ambunten,0.5541,0.1515,15.15,0.0898,4,Zone 4: Ecological Catchment,369
+3510030.0,Banyuwangi,Purwoharjo,0.5583,0.1507,15.07,0.0898,4,Zone 4: Ecological Catchment,370
+3504010.0,Tulungagung,Besuki,0.5721,0.1099,10.99,0.0898,4,Zone 4: Ecological Catchment,371
+3577020.0,Kota Madiun,Taman,0.5288,0.1667,16.67,0.089,4,Zone 4: Ecological Catchment,372
+3522011.0,Bojonegoro,Margomulyo,0.8225,0.1022,10.22,0.0874,2,Zone 2: Hydrologic Conveyance,373
+3509090.0,Jember,Mumbulsari,0.512,0.1654,16.54,0.0871,4,Zone 4: Ecological Catchment,374
+3527050.0,Sampang,Omben,0.6945,0.1212,12.12,0.0867,2,Zone 2: Hydrologic Conveyance,375
+3529240.0,Sumenep,Arjasa,0.535,0.1652,16.52,0.0856,4,Zone 4: Ecological Catchment,376
+3504140.0,Tulungagung,Tulung Agung,0.4637,0.2308,23.08,0.0854,4,Zone 4: Ecological Catchment,377
+3518020.0,Nganjuk,Ngetos,0.5531,0.1125,11.25,0.0833,4,Zone 4: Ecological Catchment,378
+3507130.0,Malang,Bululawang,0.5022,0.1702,17.02,0.0823,4,Zone 4: Ecological Catchment,379
+3510020.0,Banyuwangi,Bangorejo,0.5372,0.1429,14.29,0.0819,4,Zone 4: Ecological Catchment,380
+3505090.0,Blitar,Talun,0.4263,0.2381,23.81,0.0817,4,Zone 4: Ecological Catchment,381
+3508040.0,Lumajang,Pasirian,0.6159,0.1379,13.79,0.0808,2,Zone 2: Hydrologic Conveyance,382
+3526020.0,Bangkalan,Labang,0.6209,0.1429,14.29,0.0805,2,Zone 2: Hydrologic Conveyance,383
+3509140.0,Jember,Umbulsari,0.3703,0.1667,16.67,0.0804,4,Zone 4: Ecological Catchment,384
+3503090.0,Trenggalek,Durenan,0.496,0.2308,23.08,0.08,4,Zone 4: Ecological Catchment,385
+3507220.0,Malang,Pakis,0.5172,0.1695,16.95,0.0796,4,Zone 4: Ecological Catchment,386
+3573010.0,Kota Malang,Kedung Kandang,0.6085,0.1304,13.04,0.0791,2,Zone 2: Hydrologic Conveyance,387
+3508120.0,Lumajang,Sukodono,0.4296,0.1781,17.81,0.0784,4,Zone 4: Ecological Catchment,388
+3505170.0,Blitar,Garum,0.4851,0.1803,18.03,0.0773,4,Zone 4: Ecological Catchment,389
+3507250.0,Malang,Singosari,0.5396,0.124,12.4,0.0768,4,Zone 4: Ecological Catchment,390
+3511060.0,Bondowoso,Sukosari,0.647,0.0833,8.33,0.0767,2,Zone 2: Hydrologic Conveyance,391
+3513070.0,Probolinggo,Banyuanyar,0.3683,0.375,37.5,0.0758,3,Zone 3: Rain-Shadow & Fodder,392
+3509190.0,Jember,Arjasa,0.5869,0.1429,14.29,0.0746,4,Zone 4: Ecological Catchment,393
+3506020.0,Kediri,Semen,0.4593,0.1386,13.86,0.0739,4,Zone 4: Ecological Catchment,394
+3505150.0,Blitar,Ponggok,0.6093,0.1505,15.05,0.0732,2,Zone 2: Hydrologic Conveyance,395
+3575020.0,Kota Pasuruan,Purworejo,0.4704,0.1111,11.11,0.0716,4,Zone 4: Ecological Catchment,396
+3528040.0,Pamekasan,Larangan,0.6958,0.0952,9.52,0.0716,2,Zone 2: Hydrologic Conveyance,397
+3529020.0,Sumenep,Bluto,0.7069,0.0877,8.77,0.0715,2,Zone 2: Hydrologic Conveyance,398
+3526180.0,Bangkalan,Klampis,0.6614,0.1098,10.98,0.0714,2,Zone 2: Hydrologic Conveyance,399
+3502140.0,Ponorogo,Sampung,0.5495,0.1351,13.51,0.0713,4,Zone 4: Ecological Catchment,400
+3509230.0,Jember,Ledokombo,0.3627,0.1074,10.74,0.0708,4,Zone 4: Ecological Catchment,401
+3507210.0,Malang,Tumpang,0.4974,0.1549,15.49,0.0704,4,Zone 4: Ecological Catchment,402
+3515150.0,Sidoarjo,Gedangan,0.4327,0.16,16.0,0.0702,4,Zone 4: Ecological Catchment,403
+3505080.0,Blitar,Wlingi,0.373,0.175,17.5,0.0688,4,Zone 4: Ecological Catchment,404
+3503120.0,Trenggalek,Tugu,0.5813,0.1087,10.87,0.0687,4,Zone 4: Ecological Catchment,405
+3528091.0,Pamekasan,Kadur,0.6232,0.1111,11.11,0.0687,2,Zone 2: Hydrologic Conveyance,406
+3510080.0,Banyuwangi,Glenmore,0.2821,0.1653,16.53,0.0674,4,Zone 4: Ecological Catchment,407
+3518010.0,Nganjuk,Sawahan,0.4721,0.1048,10.48,0.0655,4,Zone 4: Ecological Catchment,408
+3527090.0,Sampang,Banyuates,0.6212,0.1076,10.76,0.0648,2,Zone 2: Hydrologic Conveyance,409
+3529210.0,Sumenep,Gayam,0.5676,0.0899,8.99,0.0648,4,Zone 4: Ecological Catchment,410
+3528080.0,Pamekasan,Pengantenan,0.6246,0.1047,10.47,0.0647,2,Zone 2: Hydrologic Conveyance,411
+3516020.0,Mojokerto,Gondang,0.4932,0.1068,10.68,0.0642,4,Zone 4: Ecological Catchment,412
+3502130.0,Ponorogo,Badegan,0.5394,0.1158,11.58,0.0632,4,Zone 4: Ecological Catchment,413
+3513040.0,Probolinggo,Bantaran,0.3662,0.2,20.0,0.063,4,Zone 4: Ecological Catchment,414
+3528101.0,Pamekasan,Pasean,0.6774,0.0952,9.52,0.0624,2,Zone 2: Hydrologic Conveyance,415
+3528100.0,Pamekasan,Waru,0.6109,0.0938,9.38,0.0617,2,Zone 2: Hydrologic Conveyance,416
+3509160.0,Jember,Tanggul,0.2429,0.1215,12.15,0.0602,4,Zone 4: Ecological Catchment,417
+3508050.0,Lumajang,Tempeh,0.4609,0.1456,14.56,0.0589,4,Zone 4: Ecological Catchment,418
+3505060.0,Blitar,Kesamben,0.5378,0.1184,11.84,0.0587,4,Zone 4: Ecological Catchment,419
+3512060.0,Situbondo,Kendit,0.5517,0.1238,12.38,0.0577,4,Zone 4: Ecological Catchment,420
+3521140.0,Ngawi,Pitu,0.8198,0.0723,7.23,0.0577,2,Zone 2: Hydrologic Conveyance,421
+3505110.0,Blitar,Kademangan,0.5341,0.1111,11.11,0.0576,4,Zone 4: Ecological Catchment,422
+3529150.0,Sumenep,Manding,0.6506,0.0806,8.06,0.0575,2,Zone 2: Hydrologic Conveyance,423
+3528070.0,Pamekasan,Palengaan,0.6586,0.0789,7.89,0.0525,2,Zone 2: Hydrologic Conveyance,424
+3507720.0,Kota Batu,Junrejo,0.6716,0.08,8.0,0.0517,2,Zone 2: Hydrologic Conveyance,425
+3513220.0,Probolinggo,Lumbang,0.4155,0.1028,10.28,0.0508,4,Zone 4: Ecological Catchment,426
+3529160.0,Sumenep,Batuputih,0.645,0.0762,7.62,0.0507,2,Zone 2: Hydrologic Conveyance,427
+3505160.0,Blitar,Nglegok,0.4773,0.0899,8.99,0.0484,4,Zone 4: Ecological Catchment,428
+3507260.0,Malang,Karangploso,0.5781,0.08,8.0,0.0477,4,Zone 4: Ecological Catchment,429
+3520070.0,Magetan,Plaosan,0.5355,0.0649,6.49,0.0475,4,Zone 4: Ecological Catchment,430
+3507230.0,Malang,Jabung,0.3735,0.0972,9.72,0.0474,4,Zone 4: Ecological Catchment,431
+3578000.0,Kota Surabaya,Kodya Surabaya,0.5135,0.097,9.7,0.0472,4,Zone 4: Ecological Catchment,432
+3502020.0,Ponorogo,Slahung,0.4755,0.0784,7.84,0.0466,4,Zone 4: Ecological Catchment,433
+3510090.0,Banyuwangi,Kalibaru,0.4089,0.0826,8.26,0.0462,4,Zone 4: Ecological Catchment,434
+3515120.0,Sidoarjo,Buduran,0.3336,0.1111,11.11,0.0462,4,Zone 4: Ecological Catchment,435
+3526070.0,Bangkalan,Galis,0.7298,0.0609,6.09,0.0459,2,Zone 2: Hydrologic Conveyance,436
+3512050.0,Situbondo,Mlandingan,0.6123,0.1552,15.52,0.0457,2,Zone 2: Hydrologic Conveyance,437
+3509240.0,Jember,Sumber Jambe,0.4846,0.0574,5.74,0.045,4,Zone 4: Ecological Catchment,438
+3527110.0,Sampang,Ketapang,0.5908,0.0732,7.32,0.0441,4,Zone 4: Ecological Catchment,439
+3529190.0,Sumenep,Dungkek,0.6981,0.0526,5.26,0.0437,2,Zone 2: Hydrologic Conveyance,440
+3507290.0,Malang,Pujon,0.5248,0.0593,5.93,0.0429,4,Zone 4: Ecological Catchment,441
+3505020.0,Blitar,Sutojayan,0.4685,0.163,16.3,0.0427,4,Zone 4: Ecological Catchment,442
+3502050.0,Ponorogo,Sawoo,0.5579,0.07,7.0,0.0419,4,Zone 4: Ecological Catchment,443
+3519070.0,Madiun,Gemarang,0.6103,0.0615,6.15,0.0417,2,Zone 2: Hydrologic Conveyance,444
+3513100.0,Probolinggo,Gading,0.3982,0.0909,9.09,0.0407,4,Zone 4: Ecological Catchment,445
+3526040.0,Bangkalan,Modung,0.6568,0.3034,30.34,0.0403,1,Zone 1: Critical Emergency,446
+3507161.0,Malang,Kromengan,0.6043,0.0789,7.89,0.0401,2,Zone 2: Hydrologic Conveyance,447
+3515110.0,Sidoarjo,Sidoarjo,0.436,0.0857,8.57,0.0398,4,Zone 4: Ecological Catchment,448
+3501040.0,Pacitan,Pacitan,0.6314,0.0625,6.25,0.0395,2,Zone 2: Hydrologic Conveyance,449
+3526170.0,Bangkalan,Sepuluh,0.6572,0.0548,5.48,0.0391,2,Zone 2: Hydrologic Conveyance,450
+3574030.0,Kota Probolinggo,Mayangan,0.318,0.1053,10.53,0.0379,4,Zone 4: Ecological Catchment,451
+3510190.0,Banyuwangi,Wongsorejo,0.5127,0.1542,15.42,0.0369,4,Zone 4: Ecological Catchment,452
+3508030.0,Lumajang,Candipuro,0.2931,0.1173,11.73,0.0359,4,Zone 4: Ecological Catchment,453
+3511140.0,Bondowoso,Klabang,0.4935,0.04,4.0,0.0348,4,Zone 4: Ecological Catchment,454
+3507310.0,Malang,Kasembon,0.5395,0.0381,3.81,0.0342,4,Zone 4: Ecological Catchment,455
+3516040.0,Mojokerto,Trawas,0.3579,0.0735,7.35,0.0334,4,Zone 4: Ecological Catchment,456
+3514010.0,Pasuruan,Purwodadi,0.6838,0.045,4.5,0.0329,2,Zone 2: Hydrologic Conveyance,457
+3510040.0,Banyuwangi,Tegaldlimo,0.3842,0.047,4.7,0.0312,4,Zone 4: Ecological Catchment,458
+3528110.0,Pamekasan,Batumarmar,0.595,0.049,4.9,0.0306,4,Zone 4: Ecological Catchment,459
+3507030.0,Malang,Pagak,0.5924,0.0349,3.49,0.0305,4,Zone 4: Ecological Catchment,460
+3514060.0,Pasuruan,Pasrepah,0.5421,0.0513,5.13,0.0294,4,Zone 4: Ecological Catchment,461
+3507240.0,Malang,Lawang,0.7448,0.0349,3.49,0.029,2,Zone 2: Hydrologic Conveyance,462
+3527100.0,Sampang,Robatal,0.7108,0.0414,4.14,0.0282,2,Zone 2: Hydrologic Conveyance,463
+3512031.0,Situbondo,Banyuglugur,0.4969,0.0769,7.69,0.0277,4,Zone 4: Ecological Catchment,464
+3509110.0,Jember,Sukorambi,0.4137,0.0682,6.82,0.0267,4,Zone 4: Ecological Catchment,465
+3513060.0,Probolinggo,Tegalsiwalan,0.3612,0.1493,14.93,0.0265,4,Zone 4: Ecological Catchment,466
+3513030.0,Probolinggo,Kuripan,0.5288,0.0469,4.69,0.0265,4,Zone 4: Ecological Catchment,467
+3508110.0,Lumajang,Randuagung,0.3784,0.0517,5.17,0.0262,4,Zone 4: Ecological Catchment,468
+3504060.0,Tulungagung,Pucang Laban,0.481,0.0256,2.56,0.0255,4,Zone 4: Ecological Catchment,469
+3513020.0,Probolinggo,Sumber,0.4157,0.05,5.0,0.0254,4,Zone 4: Ecological Catchment,470
+3509150.0,Jember,Sumber Baru,0.2654,0.0938,9.38,0.0249,4,Zone 4: Ecological Catchment,471
+3515140.0,Sidoarjo,Waru,0.4594,0.0556,5.56,0.0249,4,Zone 4: Ecological Catchment,472
+3526060.0,Bangkalan,Konang,0.7175,0.0395,3.95,0.0247,2,Zone 2: Hydrologic Conveyance,473
+3510160.0,Banyuwangi,Glagah,0.3454,0.042,4.2,0.0244,4,Zone 4: Ecological Catchment,474
+3509180.0,Jember,Panti,0.2724,0.0362,3.62,0.0241,4,Zone 4: Ecological Catchment,475
+3507270.0,Malang,Dau,0.5731,0.0312,3.12,0.0231,4,Zone 4: Ecological Catchment,476
+3508010.0,Lumajang,Tempursari,0.3263,0.0426,4.26,0.0229,4,Zone 4: Ecological Catchment,477
+3509060.0,Jember,Tempurejo,0.4244,0.0367,3.67,0.0218,4,Zone 4: Ecological Catchment,478
+3510010.0,Banyuwangi,Pesanggrahan,0.3993,0.0295,2.95,0.0217,4,Zone 4: Ecological Catchment,479
+3510150.0,Banyuwangi,Sanggon,0.2576,0.0778,7.78,0.0216,4,Zone 4: Ecological Catchment,480
+3505180.0,Blitar,Gandusari,0.4129,0.0385,3.85,0.0212,4,Zone 4: Ecological Catchment,481
+3506010.0,Kediri,Mojo,0.5419,0.0333,3.33,0.0206,4,Zone 4: Ecological Catchment,482
+3507180.0,Malang,Wagir,0.5111,0.0337,3.37,0.0199,4,Zone 4: Ecological Catchment,483
+3513050.0,Probolinggo,Leces,0.3979,0.0645,6.45,0.0192,4,Zone 4: Ecological Catchment,484
+3505030.0,Blitar,Panggungrejo,0.5455,0.0403,4.03,0.019,4,Zone 4: Ecological Catchment,485
+3508020.0,Lumajang,Pronojiwo,0.2323,0.0745,7.45,0.0189,4,Zone 4: Ecological Catchment,486
+3529010.0,Sumenep,Pragaan,0.6274,0.0244,2.44,0.0185,2,Zone 2: Hydrologic Conveyance,487
+3507110.0,Malang,Wajak,0.4005,0.0342,3.42,0.0179,4,Zone 4: Ecological Catchment,488
+3507100.0,Malang,Poncokusumo,0.3781,0.0269,2.69,0.0175,4,Zone 4: Ecological Catchment,489
+3514100.0,Pasuruan,Prigen,0.5341,0.0365,3.65,0.0172,4,Zone 4: Ecological Catchment,490
+3527080.0,Sampang,Tembelangan,0.6151,0.04,4.0,0.0172,2,Zone 2: Hydrologic Conveyance,491
+3514050.0,Pasuruan,Lumbang,0.3604,0.0312,3.12,0.0169,4,Zone 4: Ecological Catchment,492
+3526140.0,Bangkalan,Geger,0.74,0.0222,2.22,0.0159,2,Zone 2: Hydrologic Conveyance,493
+3529130.0,Sumenep,Rubaru,0.5849,0.0238,2.38,0.0148,4,Zone 4: Ecological Catchment,494
+3502060.0,Ponorogo,Sooko,0.3786,0.027,2.7,0.0146,4,Zone 4: Ecological Catchment,495
+3507170.0,Malang,Ngajum,0.5552,0.0312,3.12,0.0144,4,Zone 4: Ecological Catchment,496
+3507730.0,Kota Batu,Bumiaji,0.4018,0.0317,3.17,0.0141,4,Zone 4: Ecological Catchment,497
+3507300.0,Malang,Ngantang,0.4947,0.0219,2.19,0.0139,4,Zone 4: Ecological Catchment,498
+3509730.0,Kota Jember,Patrang,0.5013,0.025,2.5,0.0132,4,Zone 4: Ecological Catchment,499
+3505050.0,Blitar,Binangun,0.5639,0.025,2.5,0.0129,4,Zone 4: Ecological Catchment,500
+3503010.0,Trenggalek,Panggul,0.4541,0.0435,4.35,0.0126,4,Zone 4: Ecological Catchment,501
+3509070.0,Jember,Silo,0.5927,0.0211,2.11,0.0121,4,Zone 4: Ecological Catchment,502
+3507171.0,Malang,Wonosari,0.38,0.0159,1.59,0.012,4,Zone 4: Ecological Catchment,503
+3512020.0,Situbondo,Jatibanteng,0.5202,0.0238,2.38,0.012,4,Zone 4: Ecological Catchment,504
+3504050.0,Tulungagung,Tanggung Gunung,0.583,0.0171,1.71,0.0119,4,Zone 4: Ecological Catchment,505
+3503040.0,Trenggalek,Kampak,0.3519,0.0115,1.15,0.0115,4,Zone 4: Ecological Catchment,506
+3514040.0,Pasuruan,Tosari,0.4867,0.019,1.9,0.0108,4,Zone 4: Ecological Catchment,507
+3503020.0,Trenggalek,Munjungan,0.2059,0.0331,3.31,0.0099,4,Zone 4: Ecological Catchment,508
+3501110.0,Pacitan,Ngadirojo,0.3897,0.0294,2.94,0.0095,4,Zone 4: Ecological Catchment,509
+3505070.0,Blitar,Doko,0.2994,0.0189,1.89,0.0085,4,Zone 4: Ecological Catchment,510
+3505021.0,Blitar,Wonotirto,0.5438,0.0081,0.81,0.0085,4,Zone 4: Ecological Catchment,511
+3502190.0,Ponorogo,Ngebel,0.453,0.0135,1.35,0.0081,4,Zone 4: Ecological Catchment,512
+3529180.0,Sumenep,Batang-batang,0.5945,0.022,2.2,0.0068,4,Zone 4: Ecological Catchment,513
+3508151.0,Lumajang,Kedungjajang,0.384,0.0139,1.39,0.0062,4,Zone 4: Ecological Catchment,514
+3510180.0,Banyuwangi,G i r i,0.3555,0.0206,2.06,0.006,4,Zone 4: Ecological Catchment,515
+3507060.0,Malang,Sumbermanjing,0.503,0.0062,0.62,0.0058,4,Zone 4: Ecological Catchment,516
+3519060.0,Madiun,Karee,0.4491,0.0079,0.79,0.0053,4,Zone 4: Ecological Catchment,517
+3501050.0,Pacitan,Kebon Agung,0.4741,0.0081,0.81,0.0052,4,Zone 4: Ecological Catchment,518
+3508130.0,Lumajang,Senduro,0.2059,0.0092,0.92,0.005,4,Zone 4: Ecological Catchment,519
+3507070.0,Malang,Dampit,0.5414,0.0094,0.94,0.0046,4,Zone 4: Ecological Catchment,520
+3507080.0,Malang,Tirtoyudo,0.4118,0.0045,0.45,0.0041,4,Zone 4: Ecological Catchment,521
+3504180.0,Tulungagung,Sendang,0.4493,0.0072,0.72,0.004,4,Zone 4: Ecological Catchment,522
+3507010.0,Malang,Donomulyo,0.4143,0.0049,0.49,0.004,4,Zone 4: Ecological Catchment,523
+3503030.0,Trenggalek,Watulimo,0.2105,0.0199,1.99,0.0031,4,Zone 4: Ecological Catchment,524
+3507050.0,Malang,Gedangan,0.5629,0.0063,0.63,0.003,4,Zone 4: Ecological Catchment,525
+3507090.0,Malang,Ampelgading,0.3667,0.0057,0.57,0.0023,4,Zone 4: Ecological Catchment,526
+3505010.0,Blitar,Bakung,0.4418,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,527
+3525100.0,Gresik,Gresik,0.5963,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,528
+3524110.0,Lamongan,Lamongan,0.0,0.8108,81.08,0.0,3,Zone 3: Rain-Shadow & Fodder,529
+3509191.0,Jember,Jebluk,0.4588,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,530
+3507040.0,Malang,Bantur,0.5026,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,531
+3503050.0,Trenggalek,Dongko,0.3977,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,532
+3501020.0,Pacitan,Punung,0.5214,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,533
+3507020.0,Malang,Kalipare,0.5866,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,534
+3502010.0,Ponorogo,Ngrayun,0.4085,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,535
+3501120.0,Pacitan,Sudimoro,0.3581,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,536
+3501100.0,Pacitan,Tulakan,0.3645,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,537
+3501090.0,Pacitan,Tegalombo,0.4205,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,538
+3501070.0,Pacitan,Nawangan,0.4884,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,539
+3501080.0,Pacitan,Bandar,0.4451,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,540
+3501060.0,Pacitan,Arjosari,0.5729,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,541
+3501030.0,Pacitan,Pringkuku,0.5695,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,542
+3529250.0,Sumenep,Masalembo,0.0,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,543
+3529230.0,Sumenep,Sapeken,0.0,0.0497,4.97,0.0,4,Zone 4: Ecological Catchment,544
+3529220.0,Sumenep,R a a s,0.0,0.3115,31.15,0.0,3,Zone 3: Rain-Shadow & Fodder,545
+3529200.0,Sumenep,Nonggunong,0.6401,0.0,0.0,0.0,2,Zone 2: Hydrologic Conveyance,546
+3573050.0,Kota Malang,Sukun,0.614,0.0,0.0,0.0,2,Zone 2: Hydrologic Conveyance,547
+3503130.0,Trenggalek,Bendungan,0.5408,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,548
+3503060.0,Trenggalek,Pule,0.4508,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,549
+3501010.0,Pacitan,Donorejo,0.4996,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,550
+3504190.0,Tulungagung,Pagerwojo,0.504,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,551
+3511121.0,Bondowoso,Pakem,0.4082,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,552
+3510170.0,Banyuwangi,Banyuwangi,0.6821,0.2222,22.22,0.0,2,Zone 2: Hydrologic Conveyance,553
+3511120.0,Bondowoso,Wringin,0.576,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,554
+3525110.0,Gresik,Manyar,0.5173,0.0779,7.79,0.0,4,Zone 4: Ecological Catchment,555
+3508140.0,Lumajang,Gucialit,0.132,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,556
+3525170.0,Gresik,Bawean/Sangkapura,0.0,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,557
+3514020.0,Pasuruan,Tutur,0.5388,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,558
+3526150.0,Bangkalan,Kokop,0.7065,0.0,0.0,0.0,2,Zone 2: Hydrologic Conveyance,559
+3512010.0,Situbondo,Sumbermalang,0.3853,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,560
+3513190.0,Probolinggo,Gending,0.0,0.7097,70.97,0.0,3,Zone 3: Rain-Shadow & Fodder,561
+3515130.0,Sidoarjo,Sedati,0.0,0.2368,23.68,0.0,4,Zone 4: Ecological Catchment,562
+3513090.0,Probolinggo,Krucil,0.2882,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,563
+3512051.0,Situbondo,Bungatan,0.6095,0.0492,4.92,0.0,2,Zone 2: Hydrologic Conveyance,564
+3513010.0,Probolinggo,Sukapura,0.4841,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,565
+3520010.0,Magetan,Poncol,0.5697,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,566
+3514030.0,Pasuruan,Puspo,0.4755,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,567
+3576010.0,Kota Mojokerto,Mojokerto Barat,0.5504,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,568
+3505040.0,Blitar,Wates,0.5153,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,569
+3505061.0,Blitar,Solorejo,0.511,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,570
+3507710.0,Kota Batu,Batu,0.4495,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,571
+3529040.0,Sumenep,Giligenteng,0.0,0.0667,6.67,0.0,4,Zone 4: Ecological Catchment,572
+3529050.0,Sumenep,Talango,0.0,0.0588,5.88,0.0,4,Zone 4: Ecological Catchment,573
+3529140.0,Sumenep,Dasuk,0.6057,0.0,0.0,0.0,2,Zone 2: Hydrologic Conveyance,574
+3525180.0,Gresik,Tambak,0.0,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,575
+3517080.0,Jombang,Wonosalam,0.5548,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,576
+3508150.0,Lumajang,Klakah,0.2511,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,577
+3573020.0,Kota Malang,Klojen,0.5956,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,578
+3573030.0,Kota Malang,Blimbing,0.6051,0.0,0.0,0.0,2,Zone 2: Hydrologic Conveyance,579
+3573040.0,Kota Malang,Lowokwaru,0.5957,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,580
+3508160.0,Lumajang,Ranuyoso,0.3391,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,581
+3513080.0,Probolinggo,Tiris,0.3053,0.0,0.0,0.0,4,Zone 4: Ecological Catchment,582
