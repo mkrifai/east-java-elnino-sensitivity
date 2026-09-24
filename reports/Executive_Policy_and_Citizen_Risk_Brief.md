@@ -8,7 +8,7 @@
 3. **Komunitas Riset (*Researchers*):** Akademisi dan analis kebencanaan.  
 
 **Status:** Rilis Kebijakan Publik (Divalidasi Berdasarkan Data Historis 25 Tahun)  
-**Tautan Laporan Teknis Lengkap:** [M2 Iklim](M2_Climate_Response_Report.md) | [M3 Fisik & Suhu](M3_Physical_Response_Report.md) | [M4 Vegetasi](M4_Vegetation_Response_Report.md) | [M5 Rezim Lanskap](M5_Landscape_Sensitivity_Report.md) | [M6 Pangan & Kebijakan](M6_Agriculture_Policy_Report.md) | [M7 Validasi & Kepastian](M7_Validation_Synthesis_Report.md)
+**Tautan Laporan Teknis Lengkap:** [M2 Iklim](M2_Climate_Response_Report.md) | [M3 Fisik & Suhu](M3_Physical_Response_Report.md) | [M4 Vegetasi](M4_Vegetation_Response_Report.md) | [M5 Rezim Lanskap](M5_Landscape_Sensitivity_Report.md) | [M6 Pangan & Kebijakan](M6_Agriculture_Policy_Report.md) | [M7 Validasi & Kepastian](M7_Validation_Synthesis_Report.md) | [M7 Benchmarking Keparahan Sawah](M7_Agricultural_Drought_Severity_Benchmarking_Report.md)
 
 ---
 
@@ -111,7 +111,7 @@ Kerentanan pangan bukan hanya soal seberapa panas suhunya, melainkan **pertemuan
 *(Kabupaten lain: Pamekasan [Rank 18], Situbondo [Rank 19], Sampang [Rank 20] memiliki kerentanan fisik tinggi tetapi fraksi sawahnya kecil sehingga krisis utamanya berupa air minum dan ternak. Sementara Kota Surabaya [Rank 35], Trenggalek [Rank 36], Malang [Rank 37], dan Pacitan [Rank 39] berada di Tier 4: Wilayah Penyangga Alami).*
 
 > [!WARNING]
-> **Fakta Krusial Validasi:** Catatan resmi BPS Jawa Timur membuktikan bahwa **6 Kabupaten teratas (Lamongan, Gresik, Bojonegoro, Jombang, Nganjuk, Tuban) menanggung lebih dari 65% dari seluruh total padi puso** di Jawa Timur selama El Niño 2015 dan 2023.
+> **Fakta Krusial Validasi:** Catatan resmi BPBD Provinsi Jawa Timur mengonfirmasi bahwa **8 Kabupaten inti darurat kekeringan ($\text{LSI} \ge 0.55$) menampung 273 desa krisis air bersih** (~50% dari total status tanggap darurat provinsi) selama puncak El Niño 2023. Rinciannya mencakup 125 desa pada Tier Kritis ($\text{LSI} \ge 0.65$: Lamongan 42, Bojonegoro 48, Tuban 35) dan 148 desa pada Tier Tinggi ($0.55 \le \text{LSI} < 0.65$: Sampang 39, Ngawi 31, Gresik 28, Nganjuk 26, Jombang 24), sementara kabupaten kontrol penyangga Pacitan ($\text{LSI} = 0.320$) hanya mencatat 6 desa (total sampel = 279 desa).
 
 ---
 
@@ -185,17 +185,31 @@ Sebagai translator kebijakan berbasis bukti, kami wajib menyajikan data secara j
 | FIGURE: BUKTI VALIDASI MULTI-SATELIT DAN DATA BENCANA LAPANGAN HISTORIS                            |
 +----------------------------------------------------------------------------------------------------+
 ```
-![Bukti Validasi Multi-Satelit dan Data Lapangan](../outputs/m7_validation_uncertainty.png)
+![Validasi Lintas Sensor Satelit](../outputs/m7_1_sensor_validation.png)
 
-*Gambar 3: (A) Uji silang curah hujan satelit inframerah CHIRPS vs Radar NASA GPM (keselarasan 83.1%). (B) Uji konsistensi anomali vegetasi MODIS NDVI vs EVI (keselarasan 87.2%). (C) Sebaran variabilitas ketidakpastian antar 8 episode El Niño. (D) Validasi keselarasan model dengan data empiris puso sawah padi BPS Jawa Timur (rho = 0.700).*
+*Gambar 3A: (a) Uji silang curah hujan satelit inframerah CHIRPS vs Radar NASA GPM IMERG V07 terstratifikasi elevasi SRTM DEM 30 m (r = 0.7448). (b) Uji konsistensi anomali vegetasi MODIS NDVI vs EVI (r = 0.8720, p_adj = 2.39e-13) dilengkapi pita interval keyakinan 95%.*
+
+![Ketidakpastian Ensemble Multi-Event](../outputs/m7_3_ensemble_uncertainty.png)
+
+*Gambar 3B: Sebaran variabilitas ketidakpastian antar 8 episode El Niño lintas 5 regime biofisik, membuktikan 35.1% wilayah Jawa Timur merupakan hotspot deterministik dengan stabilitas tinggi pada dataran tinggi dan lembah sungai.*
+
+![Validasi Empiris Bencana Kekeringan BPBD Lapangan](../outputs/m7_2_uncertainty_groundtruth.png)
+
+*Gambar 3C: Validasi empiris data bencana darurat kekeringan lapangan BPBD: (a) Korelasi linier model Landscape Sensitivity Index (LSI) terhadap jumlah desa krisis air bersih resmi BPBD Jawa Timur 2023 (Pearson r = 0.9328, R² = 0.8701, Spearman ρ = 0.9500, p_nominal = 2.43e-4, df = 7), dibatasi secara ketat pada domain observasi [0.320, 0.697] dengan interval keyakinan 95%. Setelah koreksi autokorelasi spasial Clifford-Richardson (N_eff = 5.90, df_eff = 3.90), signifikansi tetap kokoh pada p_spasial = 0.0074 (< 0.01); (b) Profil sebaran desa darurat kekeringan pada kohort tolok ukur purpositif (n = 9 kabupaten, 279 total desa krisis), di mana 8 kabupaten inti darurat (LSI ≥ 0.55) menampung 273 desa (~50% beban kedaruratan provinsi).*
+
+![Validasi Empiris Bencana Pertanian Lapangan](../outputs/m7_4_agricultural_groundtruth.png)
+
+*Gambar 3D: Validasi empiris bencana pertanian lapangan lintas sensus penuh 38 kabupaten/kota Jawa Timur (Dinas Pertanian dan Ketahanan Pangan Jatim, 2023–2024): (a) Korelasi linier model Agricultural Sensitivity Index (ASI) terhadap luas puso/terdampak kekeringan (r = 0.5054, p = 0.0012; padi sawah r = 0.5200, p = 0.0008) dengan interval keyakinan 95%; (b) Evolusi temporal 24 bulan yang mendokumentasikan dinamika gelombang ganda (Wave 1 meteorologis akhir 2023 disusul Wave 2 pengeringan waduk/saluran primer yang memuncak pada Mei 2024 sebesar 22.668 ha/bulan); (c) Hierarki kerugian 10 kabupaten terdampak terparah yang menampung 98,5% (40.968 ha) total kerusakan tanaman pangan Jawa Timur.*
 
 ### A. Yang Kita Ketahui Secara Pasti (Evidence-Based Facts):
 1. **Pola Spasialnya Deterministik (Sangat Pasti):**  
    Uji ketidakpastian multi-event membuktikan bahwa **35.1% wilayah Jawa Timur** (khususnya lembah Bengawan Solo hilir dan Madura) selalu mengalami kekeringan ekstrem pada setiap El Niño, tanpa terkecuali. Ini bukan kebetulan cuaca sesaat.
 2. **Validasi Radar Independen NASA (83.1% Konsisten):**  
-   Data radar gelombang mikro satelit NASA GPM IMERG memvalidasi data curah hujan CHIRPS dengan korelasi spasial $r = 0.665$ ($p < 10^{-200}$).
-3. **Data Lapangan BPS Cocok ($\rho = 0.700$):**  
-   Ranking kerentanan model ini selaras dengan data historis bencana kekeringan riil di dinas pertanian dan BPBD.
+   Data radar gelombang mikro satelit NASA GPM IMERG memvalidasi data curah hujan CHIRPS dengan korelasi spasial $r = 0.665$ ($p < 10^{-200}$) dan $r = 0.7448$ pada grid spasial 15 km.
+3. **Data Bencana Lapangan BPBD Sangat Selaras ($r = 0.933, \rho = 0.950, p_{\text{spasial}} = 0.0074$):**  
+   Sensitivitas bentang lahan satelit (LSI) menunjukkan konkordansi statistik yang sangat kuat dengan **87.0% variabilitas desa darurat krisis air bersih BPBD** terjelaskan pada kohort tolok ukur pelapor bencana ($y = 102.8x - 29.9$). Hubungan ini tetap signifikan secara statistik setelah memperhitungkan autokorelasi spasial wilayah bertetangga di DAS Bengawan Solo dan Brantas ($p = 0.0074$), mendukung kegunaan pemodelan satelit LSI sebagai alat penapisan kerentanan bencana regional.
+4. **Validasi Sensus Pertanian Lapangan Dinas Pertanian Jatim ($r = 0.5054, p = 0.0012, 72.4\%$ Beban Bencana di Tier 1):**  
+   Diuji terhadap seluruh 38 kabupaten/kota di Jawa Timur menggunakan data resmi Dinas Pertanian dan Ketahanan Pangan Jatim periode El Niño 2023–2024 (total luas terdampak 41.576 ha), indeks sensitivitas pertanian (ASI) terbukti berkorelasi sangat signifikan ($r = 0.5054, p = 0.0012$; sawah padi $r = 0.5200, p = 0.0008$). Wilayah Prioritas Ekstrem (Tier 1) menampung **72,4% (30.103 ha)** dari seluruh kerusakan tanaman pangan provinsi, dengan episentrum Pantura (Lamongan, Gresik, Bojonegoro, Tuban) menyumbang **67,7% (28.145 ha)**.
 
 ### B. Yang Belum Kita Ketahui (*What We Don't Know*):
 1. **Dinamika Sumur Bor Liar (*Unmetered Groundwater*):** Satelit hanya mampu memantau kelembaban tanah permukaan (0–28 cm). Kami belum memiliki data sensus debit penyedotan air tanah dalam (*aquifer*) yang dilakukan ribuan sumur bor diesel mandiri milik petani.

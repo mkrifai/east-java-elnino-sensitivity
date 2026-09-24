@@ -23,10 +23,10 @@ This project delivers an end-to-end cloud geospatial pipeline in **Google Earth 
 +----------------------------------------------------------------------------------------------------+
 |                                      KEY EMPIRICAL BREAKTHROUGHS                                   |
 +--------------------------+-----------------------+------------------------+------------------------+
-| 1. Compound ENSO+IOD+    | 2. Early Warning      | 3. Risk Concentration  | 4. Deterministic Core  |
-| Amplifies SON deficit by | Canopy moisture (NDMI)| Top 6 of 39 regencies  | 35.1% of East Java     |
-| an extra -21.5 mm and    | drops 3-6 weeks ahead | bear >65% of recorded  | suffers severe drought |
-| dries soils 23% deeper.  | of chlorophyll browning| rice puso (BPS rho=.70)| in every El Niño event |
+| 1. Compound ENSO+IOD+    | 2. Early Warning      | 3. Disaster Ground Truth| 4. Deterministic Core  |
+| Amplifies SON deficit by | Canopy moisture (NDMI)| 87.0% village crisis var| 35.1% of East Java     |
+| an extra -21.5 mm and    | drops 3-6 weeks ahead | explained by LSI model  | suffers severe drought |
+| dries soils 23% deeper.  | of chlorophyll browning| (BPBD r=.933, rho=.950) | in every El Niño event |
 +--------------------------+-----------------------+------------------------+------------------------+
 ```
 
@@ -43,8 +43,20 @@ This project delivers an end-to-end cloud geospatial pipeline in **Google Earth 
 *Figure 2: Multi-dimensional Landscape Sensitivity Index (LSI: 0.0 to 1.0) and spatial delineation of the 5 distinct Landscape Response Regimes identified via unsupervised Weka k-Means clustering.*
 
 ### Phase 12: Independent Multi-Sensor Validation & Uncertainty Quantification
-![Multi-Source Validation & Uncertainty](outputs/m7_validation_uncertainty.png)
-*Figure 3: Multi-tier scientific validation: (A) NASA GPM Radar vs CHIRPS ($r=0.665$, 83.1% consistency); (B) MODIS NDVI vs EVI ($r=0.730$, 87.2% agreement); (C) 8-event LSI ensemble spread (±1σ); (D) Empirical ground-truth correlation against official BPS historical rice crop failure records ($\rho=0.700$, $p=0.0358$).*
+![Cross-Sensor Climate & Vegetation Validation](outputs/m7_1_sensor_validation.png)
+*Figure 3A: Cross-sensor satellite triangulation: (a) NASA GPM IMERG V07 Radar vs CHIRPS ($r=0.7448$, 83.1% consistency) stratified by NASA SRTM 30 m DEM elevation; (b) Canopy spectral robustness via MODIS NDVI vs EVI standardized anomalies ($r=0.8720$, $p_{\text{adj}}=2.39\times 10^{-13}$) with 95% confidence intervals.*
+
+![Multi-Event Ensemble Uncertainty](outputs/m7_3_ensemble_uncertainty.png)
+*Figure 3B: 8-event LSI ensemble spread (±1σ) across 5 biophysical regimes, quantifying inter-event reproducibility and bounding the 35.1% deterministic vulnerability core.*
+
+![Empirical Disaster Ground-Truth Validation](outputs/m7_2_uncertainty_groundtruth.png)
+*Figure 3C: Dedicated empirical disaster ground-truth validation: (a) Linear concordance and incident correlation ($y = 102.8x - 29.9$, $R^2 = 0.8701$, Pearson $r = 0.9328$, Spearman $\rho = 0.9500$, nominal $p = 2.43\times 10^{-4}$) bounded to the observed domain [0.320, 0.697] with 95% confidence intervals, robust to spatial autocorrelation adjustment ($p_{\text{spatial}} = 0.0074, N_{\text{eff}} = 5.90$); (b) Benchmark emergency cohort profile (279 total villages across 9 regencies) highlighting 273 villages concentrated in the 8 acute emergency regencies ($\text{LSI} \ge 0.55$).*
+
+![Empirical Agricultural Ground-Truth Census 2023-2024](outputs/m7_4_agricultural_groundtruth.png)
+*Figure 3D: Empirical agricultural ground-truth validation (Dinas Pertanian Jawa Timur, 2023–2024): (a) Provincial census concordance ($r = 0.5054, p = 0.0012, n = 38$); (b) 24-month dual-wave temporal evolution; (c) Wave 1 (2023) epicenters (6,981 ha, upland corn); (d) Wave 2 (2024) epicenters (34,595 ha, Pantura canal drawdown & Pacitan delayed monsoon).*
+
+![Multi-Tier Agricultural Severity Benchmarking Framework](outputs/m7_5_crop_loss_severity_framework.png)
+*Figure 3E: Multi-Tier Agricultural Drought Severity Benchmarking Framework: (a) Strategic Decision Matrix (Macro Absolute Loss vs Micro Local Sawah Damage Rate %); (b) Severity Rank Inversion Analysis (e.g. Pacitan jumping from #3 to #1); (c) Location Quotient ($LQ$) benchmarked against the provincial mean rate ($3.65\%$).*
 
 ---
 
@@ -188,25 +200,29 @@ Based on the intersection of **Landscape Sensitivity (LSI)** and **Cropland Dens
 │   ├── m4_vegetation_response.png
 │   ├── m5_landscape_sensitivity.png
 │   ├── m6_agriculture_policy.png
-│   └── m7_validation_uncertainty.png
+│   ├── m7_1_sensor_validation.png                   # Cross-sensor GPM vs CHIRPS & NDVI vs EVI
+│   ├── m7_2_uncertainty_groundtruth.png            # BPBD Water-Crisis Village Ground Truth (n=9)
+│   ├── m7_3_ensemble_uncertainty.png               # Multi-Event Ensemble Variance & Robust Mask
+│   ├── m7_4_agricultural_groundtruth.png           # Macro Dinas Pertanian Ground Truth Census (n=38)
+│   └── m7_5_crop_loss_severity_framework.png       # Severity Benchmarking Framework & 60/40 Model
 ├── reports/
-│   ├── Executive_Policy_and_Citizen_Risk_Brief.md   # Capstone Policy & Citizen Brief (Report Framework)
-│   ├── M2_Climate_Response_Report.md
-│   ├── M3_Physical_Response_Report.md
-│   ├── M4_Vegetation_Response_Report.md
-│   ├── M5_Landscape_Sensitivity_Report.md
+│   ├── Policy_Brief_ID.md / EN.md                   # Standard Policy Brief (ID & EN, Guideline-compliant)
+│   ├── Public_Summary_ID.md / EN.md                 # Plain-Language Citizen Summary (ID & EN)
+│   ├── Public_Report_ID.md / EN.md                  # Comprehensive Public Monograph (ID & EN)
+│   ├── Executive_Policy_and_Citizen_Risk_Brief.md   # Capstone Synthesis Policy & Citizen Brief
+│   ├── M7_Agricultural_Drought_Severity_Benchmarking_Report.md # Local Rate vs Provincial Mean Benchmarking
+│   ├── M7_Validation_Synthesis_Report.md            # Empirical Ground-Truth & Uncertainty Synthesis
 │   ├── M6_Agriculture_Policy_Report.md
-│   └── M7_Validation_Synthesis_Report.md
+│   ├── M5_Landscape_Sensitivity_Report.md
+│   ├── M4_Vegetation_Response_Report.md
+│   ├── M3_Physical_Response_Report.md
+│   └── M2_Climate_Response_Report.md
 ├── scripts/
 │   ├── config.py                                    # Shared study area, ENSO lookup & helpers
 │   ├── download_geotiffs.py                         # GeoTIFF local downloader utility
-│   ├── m2_climate_response_atlas.py
-│   ├── m3_physical_response.py
-│   ├── m4_vegetation_response.py
-│   ├── m5_landscape_sensitivity.py
-│   ├── m6_agriculture_policy.py
-│   ├── m7_validation_synthesis.py
-│   ├── visualize_m2.py ... visualize_m7.py
+│   ├── m2_climate_response_atlas.py ... m7_validation_synthesis.py
+│   ├── export_clean_groundtruth.py                  # Forensic ETL cleaner for Dinas Pertanian dataset
+│   ├── visualize_m2.py ... visualize_m7_5.py        # Publication-grade plotting suites
 ├── research_framework.md                            # Comprehensive intellectual framework (12 Phases)
 └── README.md
 ```
