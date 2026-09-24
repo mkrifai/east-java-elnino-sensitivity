@@ -13,6 +13,11 @@
 
 ---
 
+> **Academic Independence & Institutional Disclaimer:**  
+> This benchmarking report represents independent scholarly research and **does not represent the formal views, official positions, or institutional policies of the author's current academic affiliation (Department of Physics, Universitas Negeri Malang)** nor any government entities. This work is conducted purely as an **expression of academic responsibility, scientific integrity, and scholarly dedication** within the author's discipline (Environmental Physics, Computational Geospatial Science, and Agricultural Policy Analysis) for evidence-based disaster mitigation and public benefit. All analytical formulations, rankings, and policy models expressed herein remain solely the intellectual and personal responsibility of the author.
+
+---
+
 ## 1. Executive Summary & The Core Methodological Dilemma
 
 ### 1.1 The Methodological Question

@@ -4,6 +4,11 @@
 
 ---
 
+> **Academic Independence & Institutional Disclaimer:**  
+> This milestone report represents independent scholarly research and **does not represent the formal views, official positions, or institutional policies of the author's current academic affiliation (Department of Physics, Universitas Negeri Malang)** nor any other institution. This research is conducted strictly as an **expression of academic responsibility, scientific integrity, and scholarly dedication** within the author's discipline (Atmospheric Physics, Computational Geospatial Science, and Remote Sensing) for the public benefit. All analytical findings and climatological interpretations remain solely the personal and intellectual responsibility of the author.
+
+---
+
 ## PART 1: ACADEMIC REPORT & SCIENTIFIC DISCUSSION
 
 ### 1.1 Theoretical Framework & Atmospheric Dynamics

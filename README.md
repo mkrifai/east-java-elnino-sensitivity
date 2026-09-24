@@ -322,5 +322,12 @@ For academic collaborations, consulting inquiries, data sharing, or institutiona
 - **Location:** Jawa Timur, Indonesia
 
 ---
+
+## ⚖️ Academic Independence & Institutional Disclaimer
+
+This research project represents independent scholarly work and **does not represent the formal views, official positions, or institutional policies of the author's current academic affiliation (Department of Physics, Universitas Negeri Malang)** nor any associated governmental departments. This research is conducted strictly as an **expression of academic responsibility, scientific integrity, and scholarly dedication** within the author's academic discipline (Earth & Environmental Physics, Computational Geospatial Science, and Satellite Remote Sensing) for the public benefit and open science. All analyses, methodologies, empirical findings, and policy recommendations expressed herein remain solely the intellectual and personal responsibility of the author.
+
+---
+
 *Code is released under the [MIT License](LICENSE). Data and reports are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).*
 

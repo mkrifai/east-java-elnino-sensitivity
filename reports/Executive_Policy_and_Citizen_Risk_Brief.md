@@ -12,6 +12,11 @@
 
 ---
 
+> **Pernyataan Independensi Akademik & Penafian Afiliasi (Institutional Disclaimer):**  
+> Dokumen ringkasan eksekutif dan risiko warga ini merupakan karya riset independen dan **tidak mewakili pandangan formal, posisi resmi, maupun kebijakan institusional dari afiliasi penulis saat ini (Departemen Fisika, Universitas Negeri Malang)** maupun badan pemerintah daerah/nasional manapun. Penyusunan kajian ini diselenggarakan murni sebagai **bentuk tanggung jawab akademik, integritas keilmuan, dan dedikasi ilmiah** dalam bidang fisika lingkungan, pemodelan komputasi spasial, dan sains informasi geospasial yang ditekuni penulis untuk kepentingan perlindungan publik dan ketahanan iklim masyarakat. Seluruh analisis, sintesis data, dan rekomendasi merupakan tanggung jawab intelektual dan pribadi penulis sepenuhnya.
+
+---
+
 ## Daftar Isi
 1. [Prinsip Dokumen: Menghubungkan Tiga Dunia](#1-prinsip-dokumen-menghubungkan-tiga-dunia)
 2. [What Happened? — Apa yang Sebenarnya Terjadi Saat El Niño Melanda?](#2-what-happened--apa-yang-sebenarnya-terjadi-saat-el-niño-melanda)

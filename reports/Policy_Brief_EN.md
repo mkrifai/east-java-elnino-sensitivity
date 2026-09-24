@@ -11,7 +11,8 @@
 
 ---
 
-> **Disclaimer:** This policy brief presents findings from independent research and does not represent the official position of Universitas Negeri Malang, the Government of East Java Province, or any other institution. The author received no external funding. All code and data are open-source (MIT / CC BY 4.0) and traceable via a public repository.
+> **Academic Independence & Institutional Disclaimer:**  
+> This policy brief presents independent scholarly research and **does not represent the formal views, official positions, or institutional policies of the author's current academic affiliation (Department of Physics, Universitas Negeri Malang)** nor any governmental bodies. This research is conducted strictly as an **expression of academic responsibility, scientific integrity, and scholarly dedication** within the author's academic discipline (Earth & Environmental Physics, Computational Geospatial Science, and Satellite Remote Sensing) for the public good and food security resilience. The author received no external funding. All analyses, interpretations, conclusions, and recommendations remain solely the personal and intellectual responsibility of the author. All code and data are open-source (MIT / CC BY 4.0) and traceable via the public repository.
 
 ---
 
@@ -228,7 +229,7 @@ Three of eight El Niño episodes were compound (concurrent positive IOD: 2006, 2
 ## Acknowledgements, Funding, and Conflict of Interest
 
 - **Funding:** Entirely self-funded. No government, industry, or donor funding received.
-- **Conflict of interest:** The author declares no financial or non-financial conflicts of interest.
+- **Conflict of interest & institutional independence:** The author declares no financial or non-financial conflicts of interest. This research is an independent scientific initiative and does not represent the official policy, position, or endorsement of the Department of Physics, Universitas Negeri Malang, or any governmental agency. It was conducted purely as an exercise of academic responsibility and scientific dedication in geospatial and environmental physics.
 - **Author's role:** The author presents research findings and proposes policy recommendations based on data interpretation, not political advocacy.
 - **Public data:** All satellite data sourced from public repositories. Agricultural data from BPS and East Java Agriculture Services. Disaster data from BPBD East Java.
 

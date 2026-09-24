@@ -16,7 +16,8 @@
 | **Lisensi** | Kode: MIT License; Data & Laporan: CC BY 4.0 International |
 | **Repositori** | [github.com/mkrifai/east-java-elnino-sensitivity](https://github.com/mkrifai/east-java-elnino-sensitivity) |
 
-> **Disclaimer:** Laporan ini merupakan hasil riset independen dan tidak mewakili posisi resmi Universitas Negeri Malang, Pemerintah Provinsi Jawa Timur, atau lembaga lainnya. Penulis tidak menerima pendanaan eksternal dan tidak memiliki konflik kepentingan.
+> **Pernyataan Independensi Akademik & Penafian Afiliasi (Institutional Disclaimer):**  
+> Laporan publik ini merupakan karya riset independen dan **tidak mewakili pandangan formal, posisi resmi, maupun kebijakan institusional dari unit kerja atau afiliasi institusi penulis saat ini (Departemen Fisika, Universitas Negeri Malang)** maupun instansi pemerintah manapun. Penelitian ini diselenggarakan murni sebagai **bentuk tanggung jawab akademik, integritas keilmuan, dan dedikasi ilmiah** dalam bidang fisika kebumian, pemodelan komputasi spasial, dan sains observasi bumi yang ditekuni penulis untuk kemaslahatan publik dan ketahanan iklim masyarakat. Penulis tidak menerima pendanaan eksternal dan tidak memiliki konflik kepentingan. Seluruh metodologi, analisis data, temuan empiris, dan rekomendasi yang termuat di dalamnya merupakan tanggung jawab intelektual dan pribadi penulis sepenuhnya.
 
 ---
 
@@ -259,14 +260,21 @@ Kabupaten Pacitan — klasifikasi Tier 4 (Low/Buffered) dalam model musim kering
 | **Kode sumber** | Seluruh *pipeline* terbuka di GitHub (Python, MIT License) |
 | **Reprodusibilitas** | Setiap angka dalam laporan dapat ditelusuri ke skrip dan dataset spesifik |
 
-### 6.2 Penggunaan Dana
+### 6.2 Integritas Keilmuan dan Independensi Institusional
+
+Riset ini dilaksanakan sebagai wujud komitmen etika keilmuan dan tanggung jawab akademik dalam bidang fisika dan pemodelan geospasial. Penulis menegaskan bahwa:
+- Dokumen ini **bukan merupakan produk kebijakan resmi atau dokumen representasi formal dari Departemen Fisika, Universitas Negeri Malang**.
+- Seluruh interpretasi dan rekomendasi dirumuskan secara independen berdasarkan data empiris dan literatur ilmiah terbuka, tanpa intervensi pihak luar.
+- Penulis bertanggung jawab penuh atas segala klaim analitis dan metodologis yang disajikan.
+
+### 6.3 Penggunaan Dana
 
 Riset ini sepenuhnya didanai secara mandiri (*self-funded*) oleh peneliti. Tidak ada dana publik atau donor yang digunakan. Biaya operasional meliputi:
 - Akses internet dan komputasi lokal
 - Lisensi Google Earth Engine (gratis untuk riset)
 - Tidak ada biaya perjalanan lapangan (riset berbasis *remote sensing*)
 
-### 6.3 Rencana Diseminasi
+### 6.4 Rencana Diseminasi
 
 | Kanal | Target Audiens | Timeline |
 |:---|:---|:---|

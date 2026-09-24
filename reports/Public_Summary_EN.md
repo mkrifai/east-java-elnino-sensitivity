@@ -4,6 +4,11 @@
 
 ---
 
+> **Academic Independence & Institutional Disclaimer:**  
+> This summary represents independent research and **does not reflect the formal or institutional views of the author's current academic affiliation (Department of Physics, Universitas Negeri Malang)** or any government authority. This work is conducted purely as an **expression of academic responsibility and scientific dedication within the author's field of physics and Earth observation sciences**, committed to making scientific evidence accessible for the public good.
+
+---
+
 ## What is the problem?
 
 Every few years, a natural climate phenomenon called **El Niño** causes prolonged drought in East Java. Rainfall drops sharply, soil dries out, wells run low, and rice crops fail completely (*puso*). The impact is devastating for smallholder farmers who depend on their paddy fields as their sole source of income.
@@ -95,7 +100,7 @@ This research recommends 4 concrete steps:
 - This research uses satellite data and official statistics. No personal citizen data was collected.
 - All data and code are publicly available (MIT and CC BY 4.0 licenses).
 - These findings have not yet undergone formal peer review. Figures and recommendations are in draft form and open for feedback.
-- The research was entirely self-funded by the researcher, with no external sponsors.
+- The research was entirely self-funded by the researcher, with no external sponsors, and does not represent an official institutional position of the author's academic affiliation.
 
 ---
 

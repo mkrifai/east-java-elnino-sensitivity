@@ -16,6 +16,11 @@
 
 ---
 
+> **Academic Independence & Institutional Disclaimer:**  
+> This agricultural policy report represents independent scholarly research and **does not represent the formal views, official positions, or institutional policies of the author's current academic affiliation (Department of Physics, Universitas Negeri Malang)** nor any agricultural/planning government agencies. This research is conducted strictly as an **expression of academic responsibility, scientific integrity, and scholarly dedication** within the author's discipline (Environmental Physics, Computational Geospatial Science, and Remote Sensing) to support evidence-based agricultural resilience and food security. All analyses, classifications, and recommendations remain solely the intellectual and personal responsibility of the author.
+
+---
+
 ## Executive Summary
 
 Milestone 6 transitions our regional climate and multi-layer biophysical diagnosis (Milestones 2–5) into direct socio-economic and policy operationalization. East Java functions as Indonesia's premier national rice granary (*lumbung pangan nasional*), producing over 9.5 million tons of milled dry grain annually. However, exposure to intense El Niño and compound Indian Ocean Dipole positive ($IOD^+$) droughts repeatedly precipitates severe agricultural desiccation, crop failure (*puso*), and water allocation disputes.

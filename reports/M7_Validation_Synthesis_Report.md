@@ -16,6 +16,11 @@
 
 ---
 
+> **Academic Independence & Institutional Disclaimer:**  
+> This synthesis and validation report represents independent scholarly research and **does not represent the formal views, official positions, or institutional policies of the author's current academic affiliation (Department of Physics, Universitas Negeri Malang)** nor any associated governmental disaster agencies. This work was conducted strictly as an **expression of academic responsibility, scientific integrity, and scholarly dedication** within the author's discipline (Atmospheric & Geospatial Physics, Earth Observation Science) to uphold rigorous empirical validation for public benefit. All analytical models, statistical evaluations, and conclusions remain solely the personal and intellectual responsibility of the author.
+
+---
+
 ## Executive Summary
 
 Milestone 7 delivers the culminating scientific validation and uncertainty quantification for the entire research initiative: **"Mapping the Spatial Sensitivity of East Java Landscapes to El Niño (2001–2025)"**. 

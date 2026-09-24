@@ -11,7 +11,8 @@
 
 ---
 
-> **Disclaimer:** Policy brief ini merupakan hasil riset independen dan tidak mewakili posisi resmi Universitas Negeri Malang, Pemerintah Provinsi Jawa Timur, atau lembaga lainnya. Penulis tidak menerima pendanaan eksternal. Seluruh kode dan data bersifat *open-source* (MIT / CC BY 4.0) dan dapat ditelusuri melalui repositori publik.
+> **Pernyataan Independensi Akademik & Penafian Afiliasi (Institutional Disclaimer):**  
+> Policy brief ini merupakan karya riset independen dan **tidak mewakili pandangan formal, posisi resmi, maupun kebijakan institusional dari afiliasi penulis saat ini (Departemen Fisika, Universitas Negeri Malang)** maupun instansi pemerintah terkait lainnya. Penelitian ini diselenggarakan murni sebagai **bentuk tanggung jawab akademik, integritas keilmuan, dan dedikasi ilmiah** dalam bidang fisika kebumian, pemodelan komputasi spasial, dan sains observasi bumi yang ditekuni penulis untuk kepentingan publik dan ketahanan pangan nasional. Penulis tidak menerima pendanaan eksternal. Seluruh analisis, interpretasi data, kesimpulan, dan rekomendasi yang termuat di dalamnya menjadi tanggung jawab penuh penulis secara personal dan ilmiah. Seluruh kode dan data bersifat *open-source* (MIT / CC BY 4.0) dan dapat ditelusuri melalui repositori publik.
 
 ---
 
@@ -239,7 +240,7 @@ Riset ini memiliki keterbatasan yang perlu dipahami pembaca:
 ## Ucapan Terima Kasih, Pendanaan, dan Konflik Kepentingan
 
 - **Pendanaan:** Riset ini sepenuhnya didanai secara mandiri (*self-funded*). Tidak ada pendanaan dari pemerintah, industri, atau lembaga donor.
-- **Konflik kepentingan:** Penulis menyatakan tidak memiliki konflik kepentingan finansial atau non-finansial terkait temuan dan rekomendasi dalam dokumen ini.
+- **Konflik kepentingan & independensi institusional:** Penulis menyatakan tidak memiliki konflik kepentingan finansial atau non-finansial. Riset ini merupakan inisiatif ilmiah independen penulis dan tidak mewakili pandangan resmi, arahan kebijakan, maupun pendirian institusional dari Departemen Fisika, Universitas Negeri Malang, atau lembaga manapun. Penelitian ini dilaksanakan murni sebagai wujud tanggung jawab akademik dan keilmuan penulis dalam bidang sains kebumian dan pemodelan spasial.
 - **Peran penulis:** Penulis menyampaikan temuan riset dan juga mengajukan rekomendasi kebijakan. Rekomendasi didasarkan pada interpretasi data dan bukti ilmiah, bukan advokasi posisi politik tertentu.
 - **Data publik:** Seluruh data satelit bersumber dari repositori publik (Google Earth Engine, NASA, UCSB, Copernicus). Data pertanian bersumber dari BPS dan Dinas Pertanian Jawa Timur. Data bencana bersumber dari BPBD Jawa Timur.
 - **Ucapan terima kasih:** Kepada NASA, UCSB/CHG, ECMWF, dan ESA atas akses gratis data satelit melalui Google Earth Engine; BPS Jawa Timur dan Dinas Pertanian dan Ketahanan Pangan Jawa Timur atas data statistik publik.

@@ -4,6 +4,11 @@
 
 ---
 
+> **Catatan Independensi & Penafian Afiliasi:**  
+> Ringkasan ini merupakan karya riset independen dan **tidak mewakili pandangan formal maupun institusional dari afiliasi institusi penulis saat ini (Departemen Fisika, Universitas Negeri Malang)** atau lembaga pemerintah lainnya. Penyusunan riset ini merupakan **bentuk tanggung jawab akademik dan keilmuan dari bidang fisika dan sains kebumian yang ditekuni penulis** demi menyebarluaskan bukti ilmiah untuk kepentingan masyarakat dan petani.
+
+---
+
 ## Apa masalahnya?
 
 Setiap beberapa tahun, fenomena alam bernama **El Niño** menyebabkan kekeringan panjang di Jawa Timur. Hujan berkurang drastis, tanah mengering, sumur surut, dan tanaman padi gagal panen (*puso*). Dampaknya sangat berat bagi petani kecil yang mengandalkan sawah sebagai satu-satunya sumber penghasilan.
@@ -95,7 +100,7 @@ Riset ini merekomendasikan 4 langkah konkret:
 - Riset ini menggunakan data satelit dan statistik resmi. Tidak ada data pribadi warga yang dikumpulkan.
 - Semua data dan kode terbuka untuk umum (lisensi MIT dan CC BY 4.0).
 - Temuan ini belum melalui telaah sejawat (*peer review*) formal. Angka dan rekomendasi masih bersifat draft dan terbuka untuk masukan.
-- Riset didanai secara mandiri oleh peneliti, tanpa sponsor dari pihak manapun.
+- Riset didanai secara mandiri oleh peneliti, tanpa sponsor dari pihak manapun, serta tidak mewakili posisi resmi institusi afiliasi tempat penulis bernaung saat ini.
 
 ---
 

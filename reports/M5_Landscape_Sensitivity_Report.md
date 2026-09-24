@@ -4,6 +4,11 @@
 
 ---
 
+> **Academic Independence & Institutional Disclaimer:**  
+> This milestone report represents independent scholarly research and **does not represent the formal views, official positions, or institutional policies of the author's current academic affiliation (Department of Physics, Universitas Negeri Malang)** nor any other entity. This research is conducted strictly as an **expression of academic responsibility, scientific integrity, and scholarly dedication** within the author's discipline (Environmental Physics, Computational Geospatial Science, and Earth Observation) for the public benefit. All analytical models and conclusions are solely the personal and intellectual responsibility of the author.
+
+---
+
 ## PART 1: ACADEMIC REPORT & SCIENTIFIC DISCUSSION
 
 ### 1.1 Landscape Response Signatures (LRS) & The Multi-Dimensional Paradigm

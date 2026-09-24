@@ -16,7 +16,8 @@
 | **License** | Code: MIT License; Data & Reports: CC BY 4.0 International |
 | **Repository** | [github.com/mkrifai/east-java-elnino-sensitivity](https://github.com/mkrifai/east-java-elnino-sensitivity) |
 
-> **Disclaimer:** This report presents findings from independent research and does not represent the official position of Universitas Negeri Malang, the Government of East Java Province, or any other institution. The author received no external funding and declares no conflicts of interest.
+> **Academic Independence & Institutional Disclaimer:**  
+> This public report represents independent scholarly research and **does not represent the formal views, official positions, or institutional policies of the author's current academic affiliation (Department of Physics, Universitas Negeri Malang)** nor any governmental agencies. This research is conducted strictly as an **expression of academic responsibility, scientific integrity, and scholarly dedication** within the author's academic discipline (Earth & Environmental Physics, Computational Geospatial Modeling, and Satellite Remote Sensing) for public benefit and regional climate resilience. The author received no external funding and declares no conflicts of interest. All methodologies, analytical interpretations, empirical findings, and policy recommendations expressed herein remain solely the intellectual and personal responsibility of the author.
 
 ---
 
@@ -259,14 +260,21 @@ Pacitan — classified as Tier 4 (Low/Buffered) in the dry-season model — reco
 | **Source code** | Entire pipeline open on GitHub (Python, MIT License) |
 | **Reproducibility** | Every figure in this report is traceable to specific scripts and datasets |
 
-### 6.2 Use of Funds
+### 6.2 Scientific Integrity and Institutional Independence
+
+This research was conducted as a demonstration of scholarly commitment and academic responsibility within computational physics and geospatial earth sciences. The author expressly notes:
+- This document **does not constitute an official policy product or formal institutional representation of the Department of Physics, Universitas Negeri Malang**.
+- All interpretations and recommendations were formulated independently based on open empirical datasets and peer-reviewed scientific methods without external interference.
+- The author bears full responsibility for all methodological choices and analytical findings presented herein.
+
+### 6.3 Use of Funds
 
 This research was entirely self-funded by the researcher. No public or donor funds were used. Operational costs included:
 - Internet access and local computing
 - Google Earth Engine licence (free for research)
 - No fieldwork travel costs (remote-sensing-based study)
 
-### 6.3 Dissemination Plan
+### 6.4 Dissemination Plan
 
 | Channel | Target Audience | Timeline |
 |:---|:---|:---|
